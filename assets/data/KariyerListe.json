@@ -3276,6 +3276,1407 @@
     "isim": "SAMUEL",
     "soyisim": "",
     "takim": 7
+  },{
+    "uyruk": "FAS",
+    "pozisyon": "SAĞ KANAT",
+    "no": 1,
+    "isim": "ZIYECH",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 2,
+    "isim": "PEDRO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 3,
+    "isim": "ASHLEY",
+    "soyisim": "COLE",
+    "takim": 6
+  },{
+    "uyruk": "ÇEK CUMHURİYETİ",
+    "pozisyon": "KALECİ",
+    "no": 4,
+    "isim": "CECH",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 5,
+    "isim": "MORATA",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 6,
+    "isim": "GALLAS",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 7,
+    "isim": "AZPILICUETA",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ KANAT",
+    "no": 8,
+    "isim": "MADUEKE",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL KANAT BEK",
+    "no": 9,
+    "isim": "MARCOS",
+    "soyisim": "ALONSO",
+    "takim": 7
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SAĞ BEK",
+    "no": 10,
+    "isim": "BOSINGWA",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 11,
+    "isim": "LAMPARD",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 12,
+    "isim": "BAKAYOKO",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 13,
+    "isim": "ZOUMA",
+    "soyisim": "",
+    "takim": 6
+  },
+  {
+    "uyruk": "BELÇİKA",
+    "pozisyon": "SOL KANAT",
+    "no": 14,
+    "isim": "EDEN",
+    "soyisim": "HAZARD",
+    "takim": 3
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 15,
+    "isim": "HAVERTZ",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "KALECİ",
+    "no": 16,
+    "isim": "KEPA",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "GABON",
+    "pozisyon": "SANTRAFOR",
+    "no": 17,
+    "isim": "AUBAMEYANG",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SANTRAFOR",
+    "no": 18,
+    "isim": "ABRAHAM",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "10 NUMARA",
+    "no": 19,
+    "isim": "OSCAR",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 20,
+    "isim": "BELLETTI",
+    "soyisim": "",
+    "takim": 10
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL BEK",
+    "no": 21,
+    "isim": "FILIPE",
+    "soyisim": "LUIS",
+    "takim": 8
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL KANAT",
+    "no": 22,
+    "isim": "WILLIAN",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SANTRAFOR",
+    "no": 23,
+    "isim": "GIROUD",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 24,
+    "isim": "FOFANA",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SOL KANAT",
+    "no": 25,
+    "isim": "STERLING",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 26,
+    "isim": "WERNER",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "FİLDİŞİ SAHİLİ",
+    "pozisyon": "SANTRAFOR",
+    "no": 27,
+    "isim": "DIDIER",
+    "soyisim": "DROGBA",
+    "takim": 10
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "STOPER",
+    "no": 28,
+    "isim": "CARVALHO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "GANA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 29,
+    "isim": "ESSIEN",
+    "soyisim": "",
+    "takim": 10
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 30,
+    "isim": "FABREGAS",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "STOPER",
+    "no": 31,
+    "isim": "DAVID",
+    "soyisim": "LUIZ",
+    "takim": 7
+  },{
+    "uyruk": "UKRAYNA",
+    "pozisyon": "SOL KANAT",
+    "no": 32,
+    "isim": "MUDRYK",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 33,
+    "isim": "BALLACK",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "SIRBİSTAN",
+    "pozisyon": "SAĞ BEK",
+    "no": 34,
+    "isim": "IVANOVIC",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SANTRAFOR",
+    "no": 35,
+    "isim": "HIGUAIN",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "STOPER",
+    "no": 36,
+    "isim": "CAHILL",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 37,
+    "isim": "JORGINHO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 38,
+    "isim": "KANTE",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "KOLOMBİYA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 39,
+    "isim": "CUADRADO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "SENEGAL",
+    "pozisyon": "STOPER",
+    "no": 40,
+    "isim": "KOULIBALY",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "SENEGAL",
+    "pozisyon": "KALECİ",
+    "no": 41,
+    "isim": "MENDY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "HOLLANDA",
+    "pozisyon": "STOPER",
+    "no": 42,
+    "isim": "AKE",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 43,
+    "isim": "ENZO",
+    "soyisim": "FERNANDEZ",
+    "takim": 5
+  },{
+    "uyruk": "ABD",
+    "pozisyon": "SAĞ KANAT",
+    "no": 44,
+    "isim": "PULISIC",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SOL KANAT",
+    "no": 45,
+    "isim": "SCHURRLE",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL BEK",
+    "no": 46,
+    "isim": "CUCURELLA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "NİJERYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 47,
+    "isim": "OBI",
+    "soyisim": "MIKEL",
+    "takim": 8
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SOL BEK",
+    "no": 48,
+    "isim": "EMERSON",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "UKRAYNA",
+    "pozisyon": "SANTRAFOR",
+    "no": 49,
+    "isim": "SHEVCHENKO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 50,
+    "isim": "RAMIRES",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 450,
+    "isim": "XHAKA",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ KANAT",
+    "no": 451,
+    "isim": "WALCOTT",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 452,
+    "isim": "BELLERIN",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 453,
+    "isim": "GILBERTO",
+    "soyisim": "SILVA",
+    "takim": 7
+  },{
+    "uyruk": "ŞİLİ",
+    "pozisyon": "SANTRAFOR",
+    "no": 454,
+    "isim": "ALEXIS",
+    "soyisim": "SANCHEZ",
+    "takim": 8
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SANTRAFOR",
+    "no": 455,
+    "isim": "LACAZETTE",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İSKOÇYA",
+    "pozisyon": "SOL BEK",
+    "no": 456,
+    "isim": "TIERNEY",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "RUSYA",
+    "pozisyon":"SOL KANAT",
+    "no": 457,
+    "isim": "ARSHAVIN",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SOL BEK",
+    "no": 458,
+    "isim": "CLICHY",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "SOL KANAT",
+    "no": 459,
+    "isim": "TROSSARD",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 460,
+    "isim": "MESUT",
+    "soyisim": "OZIL",
+    "takim": 7
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SANTRAFOR",
+    "no": 461,
+    "isim": "HENRY",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 462,
+    "isim": "JESUS",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SAĞ BEK",
+    "no": 463,
+    "isim": "SAGNA",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "KALECİ",
+    "no": 464,
+    "isim": "LENO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 465,
+    "isim": "GUENDOUZI",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "10 NUMARA",
+    "no": 466,
+    "isim": "NASRI",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 467,
+    "isim": "ARTETA",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "GALLER",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 468,
+    "isim": "RAMSEY",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "STOPER",
+    "no": 469,
+    "isim": "MUSTAFI",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 470,
+    "isim": "CAZORLA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "KOLOMBİYA",
+    "pozisyon": "KALECİ",
+    "no": 471,
+    "isim": "OSPINA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ÇEK CUMHURİYETİ",
+    "pozisyon": "10 NUMARA",
+    "no": 472,
+    "isim": "ROSICKY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "HOLLANDA",
+    "pozisyon": "SANTRAFOR",
+    "no": 473,
+    "isim": "VAN",
+    "soyisim": "PERSIE",
+    "takim": 6
+  },{
+    "uyruk": "UKRAYNA",
+    "pozisyon": "SOL BEK",
+    "no": 474,
+    "isim": "ZINCHENKO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "STOPER",
+    "no": 475,
+    "isim": "GABRIEL",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ KANAT",
+    "no": 476,
+    "isim": "SAKA",
+    "soyisim": "",
+    "takim": 1
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "STOPER",
+    "no": 477,
+    "isim": "MERTESACKER",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 478,
+    "isim": "GALLAS",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 479,
+    "isim": "VIEIRA",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "BOSNA HERSEK",
+    "pozisyon": "SOL BEK",
+    "no": 480,
+    "isim": "KOLASINAC",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "STOPER",
+    "no": 481,
+    "isim": "VERMAELEN",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "NİJERYA",
+    "pozisyon": "10 NUMARA",
+    "no": 482,
+    "isim": "IWOBI",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 483,
+    "isim": "KOSCIELNY",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SOL BEK",
+    "no": 484,
+    "isim": "GIBBS",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "POLONYA",
+    "pozisyon": "KALECİ",
+    "no": 485,
+    "isim": "SZCZESNY",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "MISIR",
+    "pozisyon": "ÖN LİBERO",
+    "no": 486,
+    "isim": "ELNENY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL KANAT",
+    "no": 487,
+    "isim": "MARTINELLI",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "NORVEÇ",
+    "pozisyon": "10 NUMARA",
+    "no": 488,
+    "isim": "ODEGAARD",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 489,
+    "isim": "CEBALLOS",
+    "soyisim": "",
+    "takim":4
+  },{
+    "uyruk": "CEZAYİR",
+    "pozisyon": "ÖN LİBERO",
+    "no": 490,
+    "isim": "BENNACER",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 491,
+    "isim": "SALIBA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "FİLDİŞİ SAHİLİ",
+    "pozisyon": "SAĞ KANAT",
+    "no": 492,
+    "isim": "PEPE",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL BEK",
+    "no": 493,
+    "isim": "MONREAL",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "HOLLANDA",
+    "pozisyon": "FORVET ARKASI",
+    "no": 494,
+    "isim": "BERGKAMP",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "TOGO",
+    "pozisyon": "SANTRAFOR",
+    "no": 495,
+    "isim": "ADEBAYOR",
+    "soyisim": "",
+    "takim": 10
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "KALECİ",
+    "no": 496,
+    "isim": "RAMSDALE",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SOL KANAT BEK",
+    "no": 497,
+    "isim": "NUNO",
+    "soyisim": "TAVARES",
+    "takim": 3
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SAĞ BEK",
+    "no": 498,
+    "isim": "DEBUCHY",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "MEKSİKA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 499,
+    "isim": "VELA",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 600,
+    "isim": "BELLINGHAM",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "SOL KANAT",
+    "no": 601,
+    "isim": "HAZARD",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "KALECİ",
+    "no": 602,
+    "isim": "BURKI",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 603,
+    "isim": "WEIGL",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "KALECİ",
+    "no": 604,
+    "isim": "WEIDENFELLER",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "POLONYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 605,
+    "isim": "PISZCZEK",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 606,
+    "isim": "DAHOUD",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "NORVEÇ",
+    "pozisyon": "SANTRAFOR",
+    "no": 607,
+    "isim": "HAALAND",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "STOPER",
+    "no": 608,
+    "isim": "GINTER",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 609,
+    "isim": "JANUZAJ",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL BEK",
+    "no": 610,
+    "isim": "DEDE",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 611,
+    "isim": "BENDER",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "TÜRKİYE",
+    "pozisyon": "ÖN LİBERO",
+    "no": 612,
+    "isim": "OZCAN",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 613,
+    "isim": "BRANDT",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İSVEÇ",
+    "pozisyon": "SANTRAFOR",
+    "no": 614,
+    "isim": "ISAK",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 615,
+    "isim": "GOTZE",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "SENEGAL",
+    "pozisyon": "STOPER",
+    "no": 616,
+    "isim": "DIALLO",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "SAĞ BEK",
+    "no": 617,
+    "isim": "MEUNIER",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ABD",
+    "pozisyon": "10 NUMARA",
+    "no": 618,
+    "isim": "REYNA",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SOL BEK",
+    "no": 619,
+    "isim": "GUERREIRO",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 620,
+    "isim": "GROSSKREUTZ",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 621,
+    "isim": "GUNDOGAN",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "TÜRKİYE",
+    "pozisyon": "STOPER",
+    "no": 622,
+    "isim": "TOPRAK",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "NORVEÇ",
+    "pozisyon": "SAĞ BEK",
+    "no": 623,
+    "isim": "RYERSON",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "FİLDİŞİ SAHİLİ",
+    "pozisyon": "SANTRAFOR",
+    "no": 624,
+    "isim": "HALLER",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "KALECİ",
+    "no": 625,
+    "isim": "KOBEL",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "DANİMARKA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 626,
+    "isim": "DELANEY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ KANAT",
+    "no": 627,
+    "isim": "SANCHO",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 628,
+    "isim": "CASTRO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SOL BEK",
+    "no": 629,
+    "isim": "SCHMELZER",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 630,
+    "isim": "ZAGADOU",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "HOLLANDA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 631,
+    "isim": "MALEN",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "STOPER",
+    "no": 632,
+    "isim": "AKANJI",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ÇEK CUMHURİYETİ",
+    "pozisyon": "SANTRAFOR",
+    "no": 633,
+    "isim": "KOLLER",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "HIRVATİSTAN",
+    "pozisyon": "SANTRAFOR",
+    "no": 634,
+    "isim": "PETRIC",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "SLOVENYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 635,
+    "isim": "KAMPL",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SOL KANAT",
+    "no": 636,
+    "isim": "ADEYEMI",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SOL BEK",
+    "no": 637,
+    "isim": "SCHULZ",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SOL KANAT",
+    "no": 638,
+    "isim": "SCHURRLE",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "FAS",
+    "pozisyon": "SAĞ BEK",
+    "no": 639,
+    "isim": "HAKIMI",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "SIRBİSTAN",
+    "pozisyon": "STOPER",
+    "no": 640,
+    "isim": "SUBOTIC",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 641,
+    "isim": "IMMOBILE",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "UKRAYNA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 642,
+    "isim": "YARMOLENKO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 643,
+    "isim": "MARCO",
+    "soyisim": "REUS",
+    "takim": 4
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 644,
+    "isim": "PASSLACK",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "KALECİ",
+    "no": 645,
+    "isim": "LEHMANN",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 646,
+    "isim": "MOREY",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 647,
+    "isim": "MOUKOKO",
+    "soyisim": "",
+    "takim": 1
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL BEK",
+    "no": 648,
+    "isim": "GOMEZ",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 649,
+    "isim": "DEMBELE",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "ÖN LİBERO",
+    "no": 500,
+    "isim": "PHILLIPS",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 501,
+    "isim": "FERNANDINHO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "BOSNA HERSEK",
+    "pozisyon": "SANTRAFOR",
+    "no": 502,
+    "isim": "DZEKO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "STOPER",
+    "no": 503,
+    "isim": "BOATENG",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "10 NUMARA",
+    "no": 504,
+    "isim": "BERNARDO",
+    "soyisim": "SILVA",
+    "takim": 3
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SANTRAFOR",
+    "no": 505,
+    "isim": "TEVEZ",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 506,
+    "isim": "JESUS",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SANTRAFOR",
+    "no": 507,
+    "isim": "ALVAREZ",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "STOPER",
+    "no": 508,
+    "isim": "KOMPANY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "KALECİ",
+    "no": 509,
+    "isim": "JOE",
+    "soyisim": "HART",
+    "takim": 6
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 510,
+    "isim": "GUNDOGAN",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "STOPER",
+    "no": 511,
+    "isim": "STONES",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "KARADAĞ",
+    "pozisyon": "SANTRAFOR",
+    "no": 512,
+    "isim": "JOVETIC",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ KANAT",
+    "no": 513,
+    "isim": "SANCHO",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 514,
+    "isim": "JESUS",
+    "soyisim": "NAVAS",
+    "takim": 3
+  },{
+    "uyruk": "NORVEÇ",
+    "pozisyon": "SANTRAFOR",
+    "no": 515,
+    "isim": "HAALAND",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 516,
+    "isim": "DAVID",
+    "soyisim": "SILVA",
+    "takim": 4
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SAĞ BEK",
+    "no": 517,
+    "isim": "ZABALETA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ALMANYA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 518,
+    "isim": "SANE",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "SIRBİSTAN",
+    "pozisyon": "SOL BEK",
+    "no": 519,
+    "isim": "KOLAROV",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SOL KANAT",
+    "no": 520,
+    "isim": "GREALISH",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "CEZAYİR",
+    "pozisyon": "SAĞ KANAT",
+    "no": 521,
+    "isim": "MAHREZ",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "STOPER",
+    "no": 522,
+    "isim": "LESCOTT",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SAĞ BEK",
+    "no": 523,
+    "isim": "CANCELO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SOL BEK",
+    "no": 524,
+    "isim": "CLICHY",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "ÖN LİBERO",
+    "no": 525,
+    "isim": "BARRY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SOL KANAT",
+    "no": 526,
+    "isim": "FODEN",
+    "soyisim": "",
+    "takim": 1
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "10 NUMARA",
+    "no": 527,
+    "isim": "BRAHIM",
+    "soyisim": "DIAZ",
+    "takim": 3
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "KALECİ",
+    "no": 528,
+    "isim": "EDERSON",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "STOPER",
+    "no": 529,
+    "isim": "LAPORTE",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ KANAT",
+    "no": 530,
+    "isim": "WRIGHT",
+    "soyisim": "PHILLIPS",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL KANAT",
+    "no": 531,
+    "isim": "NOLITO",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 532,
+    "isim": "DE",
+    "soyisim": "BRUYNE",
+    "takim": 5
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 533,
+    "isim": "ELANO",
+    "soyisim": "",
+    "takim": 10
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 534,
+    "isim": "MILNER",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "STOPER",
+    "no": 535,
+    "isim": "OTAMENDI",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "FİLDİŞİ SAHİLİ",
+    "pozisyon": "STOPER",
+    "no": 536,
+    "isim": "KOLO",
+    "soyisim": "TOURE",
+    "takim": 5
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ BEK",
+    "no": 537,
+    "isim": "WALKER",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ BEK",
+    "no": 538,
+    "isim": "RICHARDS",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL BEK",
+    "no": 539,
+    "isim": "ANGELINO",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "HOLLANDA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 540,
+    "isim": "DE",
+    "soyisim": "JONG",
+    "takim": 10
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "STOPER",
+    "no": 541,
+    "isim": "RUBEN",
+    "soyisim": "DIAS",
+    "takim": 2
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SANTRAFOR",
+    "no": 542,
+    "isim": "AGUERO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL KANAT",
+    "no": 543,
+    "isim": "TORRES",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ BEK",
+    "no": 544,
+    "isim": "LEWIS",
+    "soyisim": "",
+    "takim": 1
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "STOPER",
+    "no": 545,
+    "isim": "AKANJI",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "STOPER",
+    "no": 546,
+    "isim": "DEMICHELIS",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 547,
+    "isim": "RODRI",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "FİLDİŞİ SAHİLİ",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 548,
+    "isim": "YAYA",
+    "soyisim": "TOURE",
+    "takim": 9
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 549,
+    "isim": "BALOTELLI",
+    "soyisim": "",
+    "takim": 10
   },
   {
     "uyruk": "TÜRKİYE",
@@ -3676,6 +5077,706 @@
     "isim": "ANELKA",
     "soyisim": "",
     "takim": 10
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "STOPER",
+    "no": 650,
+    "isim": "BONUCCI",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 651,
+    "isim": "DOUGLAS",
+    "soyisim": "COSTA",
+    "takim": 7
+  },{
+    "uyruk": "SIRBİSTAN",
+    "pozisyon": "SAĞ KANAT",
+    "no": 652,
+    "isim": "KRASIC",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "SAĞ BEK",
+    "no": 653,
+    "isim": "LICHTSTEINER",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SANTRAFOR",
+    "no": 654,
+    "isim": "TREZEGUET",
+    "soyisim": "",
+    "takim":8
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 655,
+    "isim": "RABIOT",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 656,
+    "isim": "KEAN",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 657,
+    "isim": "MATUIDI",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL BEK",
+    "no": 658,
+    "isim": "ALEX",
+    "soyisim": "SANDRO",
+    "takim": 4
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "KALECİ",
+    "no": 659,
+    "isim": "BUFFON",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 660,
+    "isim": "LLORENTE",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "GANA",
+    "pozisyon": "SOL KANAT BEK",
+    "no": 661,
+    "isim": "ASAMOAH",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "ŞİLİ",
+    "pozisyon": "SAĞ BEK",
+    "no": 662,
+    "isim": "ISLA",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SAĞ KANAT",
+    "no": 663,
+    "isim": "BERNARDESCHI",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "STOPER",
+    "no": 664,
+    "isim": "BREMER",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "SIRBİSTAN",
+    "pozisyon": "SOL KANAT",
+    "no": 665,
+    "isim": "KOSTIC",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "FORVET ARKASI",
+    "no": 666,
+    "isim": "DEL",
+    "soyisim": "PIERO",
+    "takim": 4
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 667,
+    "isim": "MARCHISIO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "KOLOMBİYA",
+    "pozisyon": "SAĞ ORTA SAHA",
+    "no": 668,
+    "isim": "CUADRADO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "POLONYA",
+    "pozisyon": "KALECİ",
+    "no": 669,
+    "isim": "SZCZESNY",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "TÜRKİYE",
+    "pozisyon": "STOPER",
+    "no": 670,
+    "isim": "DEMIRAL",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "STOPER",
+    "no": 671,
+    "isim": "CHIELLINI",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 672,
+    "isim": "ARTHUR",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSVİÇRE",
+    "pozisyon": "ÖN LİBERO",
+    "no": 673,
+    "isim": "ZAKARIA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "KALECİ",
+    "no": 674,
+    "isim": "NETO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SOL KANAT",
+    "no": 675,
+    "isim": "CHIESA",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SOL BEK",
+    "no": 676,
+    "isim": "GROSSO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "GABON",
+    "pozisyon": "ÖN LİBERO",
+    "no": 677,
+    "isim": "LEMINA",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "10 NUMARA",
+    "no": 678,
+    "isim": "DYBALA",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 679,
+    "isim": "DE",
+    "soyisim": "SCIGLIO",
+    "takim": 4
+  },{
+    "uyruk": "FAS",
+    "pozisyon": "STOPER",
+    "no": 680,
+    "isim": "BENATIA",
+    "soyisim": "",
+    "takim": 10
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 681,
+    "isim": "POGBA",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "POLONYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 682,
+    "isim": "MILIK",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "ÇEK CUMHURİYETİ",
+    "pozisyon": "SOL ORTA SAHA",
+    "no": 683,
+    "isim": "NEDVED",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 684,
+    "isim": "ZAMBROTTA",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSVEÇ",
+    "pozisyon": "SAĞ KANAT",
+    "no": 685,
+    "isim": "KULUSEVSKI",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "10 NUMARA",
+    "no": 686,
+    "isim": "DIEGO",
+    "soyisim": "",
+    "takim": 10
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SOL KANAT",
+    "no": 687,
+    "isim": "COMAN",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "SIRBİSTAN",
+    "pozisyon": "SANTRAFOR",
+    "no": 688,
+    "isim": "VLAHOVIC",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SAĞ BEK",
+    "no": 689,
+    "isim": "CANCELO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "HOLLANDA",
+    "pozisyon": "STOPER",
+    "no": 690,
+    "isim": "DE",
+    "soyisim": "LIGT",
+    "takim": 3
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 691,
+    "isim": "THURAM",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "STOPER",
+    "no": 692,
+    "isim": "BARZAGLI",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SANTRAFOR",
+    "no": 693,
+    "isim": "RONALDO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "ABD",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 694,
+    "isim": "MCKENNIE",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "ÖN LİBERO",
+    "no": 695,
+    "isim": "PAREDES",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SOL BEK",
+    "no": 696,
+    "isim": "EVRA",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "URUGUAY",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 697,
+    "isim": "BENTANCUR",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "DANİMARKA",
+    "pozisyon": "SANTRAFOR",
+    "no": 698,
+    "isim": "BENDTNER",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "FORVET ARKASI",
+    "no": 699,
+    "isim": "GIOVINCO",
+    "soyisim": "",
+    "takim": 9
+  }, {
+    "uyruk": "BELÇİKA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 250,
+    "isim": "WITSEL",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "URUGUAY",
+    "pozisyon": "STOPER",
+    "no": 251,
+    "isim": "DIEGO",
+    "soyisim": "GODIN",
+    "takim": 8
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "STOPER",
+    "no": 252,
+    "isim": "LUCAS",
+    "soyisim": "HERNANDEZ",
+    "takim": 2
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SANTRAFOR",
+    "no": 253,
+    "isim": "GAMEIRO",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "KARADAĞ",
+    "pozisyon": "STOPER",
+    "no": 254,
+    "isim": "SAVIC",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "KALECİ",
+    "no": 255,
+    "isim": "DE",
+    "soyisim": "GEA",
+    "takim": 2
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "10 NUMARA",
+    "no": 256,
+    "isim": "LEMAR",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "İNGİLTERE",
+    "pozisyon": "SAĞ BEK",
+    "no": 257,
+    "isim": "TRIPPIER",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SAĞ BEK",
+    "no": 258,
+    "isim": "JUANFRAN",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 259,
+    "isim": "GABI",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İTALYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 260,
+    "isim": "MOTTA",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL KANAT",
+    "no": 261,
+    "isim": "VITOLO",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 262,
+    "isim": "MORATA",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "ORTA AFRİKA CUMHURİYETİ",
+    "pozisyon": "ÖN LİBERO",
+    "no": 263,
+    "isim": "KONDOGBIA",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "HIRVATİSTAN",
+    "pozisyon": "SANTRAFOR",
+    "no": 264,
+    "isim": "MANDZUKIC",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "10 NUMARA",
+    "no": 265,
+    "isim": "GAITAN",
+    "soyisim": "",
+    "takim": 8 
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "STOPER",
+    "no": 266,
+    "isim": "MIRANDA",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "KALECİ",
+    "no": 267,
+    "isim": "COURTOIS",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 268,
+    "isim": "KOKE",
+    "soyisim": "",
+    "takim": 1
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 269,
+    "isim": "CUNHA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "STOPER",
+    "no": 270,
+    "isim": "MONTERO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "FAS",
+    "pozisyon": "KALECİ",
+    "no": 271,
+    "isim": "BONO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "SOL KANAT",
+    "no": 272,
+    "isim": "CARRASCO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL BEK",
+    "no": 273,
+    "isim": "RENAN",
+    "soyisim": "LODI",
+    "takim": 3
+  },{
+    "uyruk": "BELÇİKA",
+    "pozisyon": "STOPER",
+    "no": 274,
+    "isim": "ALDERWEIRELD",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İRLANDA",
+    "pozisyon": "SAĞ BEK",
+    "no": 275,
+    "isim": "DOHERTY",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "SOL KANAT",
+    "no": 276,
+    "isim": "SIMAO",
+    "soyisim": "",
+    "takim": 8
+  },{
+    "uyruk": "ÇEK CUMHURİYETİ",
+    "pozisyon": "STOPER",
+    "no": 277,
+    "isim": "UJFALUSI",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "MOZAMBİK",
+    "pozisyon": "SOL BEK",
+    "no": 278,
+    "isim": "REINILDO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 279,
+    "isim": "DE",
+    "soyisim": "PAUL",
+    "takim": 5
+  },{
+    "uyruk": "TÜRKİYE",
+    "pozisyon": "SOL KANAT",
+    "no": 280,
+    "isim": "ARDA",
+    "soyisim": "TURAN",
+    "takim": 8
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 281,
+    "isim": "TORRES",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "URUGUAY",
+    "pozisyon": "STOPER",
+    "no": 282,
+    "isim": "GIMENEZ",
+    "soyisim": "",
+    "takim": 2
+  },{
+    "uyruk": "SLOVENYA",
+    "pozisyon": "KALECİ",
+    "no": 283,
+    "isim": "OBLAK",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SANTRAFOR",
+    "no": 284,
+    "isim": "AGUERO",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 285,
+    "isim": "RAUL",
+    "soyisim": "GARCIA",
+    "takim": 5
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "FORVET ARKASI",
+    "no": 286,
+    "isim": "JOAO",
+    "soyisim": "FELIX",
+    "takim": 3
+  },{
+    "uyruk": "BREZİLYA",
+    "pozisyon": "SOL BEK",
+    "no": 287,
+    "isim": "FILIPE",
+    "soyisim": "LUIS",
+    "takim": 8
+  },{
+    "uyruk": "PORTEKİZ",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 288,
+    "isim": "TIAGO",
+    "soyisim": "",
+    "takim": 7
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 289,
+    "isim": "LLORENTE",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "GANA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 290,
+    "isim": "PARTEY",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "KOLOMBİYA",
+    "pozisyon": "SANTRAFOR",
+    "no": 291,
+    "isim": "FALCAO",
+    "soyisim": "",
+    "takim": 9
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "ÖN LİBERO",
+    "no": 292,
+    "isim": "RODRI",
+    "soyisim": "",
+    "takim": 3
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SAĞ BEK",
+    "no": 293,
+    "isim": "MOLINA",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "FRANSA",
+    "pozisyon": "SANTRAFOR",
+    "no": 294,
+    "isim": "GRIEZMANN",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "MEKSİKA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 295,
+    "isim": "HERRERA",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "SOL BEK",
+    "no": 296,
+    "isim": "REGULION",
+    "soyisim": "",
+    "takim": 6
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "MERKEZ ORTA SAHA",
+    "no": 297,
+    "isim": "SAUL",
+    "soyisim": "",
+    "takim": 5
+  },{
+    "uyruk": "İSPANYA",
+    "pozisyon": "STOPER",
+    "no": 298,
+    "isim": "HERMOSO",
+    "soyisim": "",
+    "takim": 4
+  },{
+    "uyruk": "ARJANTİN",
+    "pozisyon": "SAĞ KANAT",
+    "no": 299,
+    "isim": "CORREA",
+    "soyisim": "",
+    "takim": 2
   },
   {
     "uyruk": "KANADA",
@@ -4076,2109 +6177,6 @@
     "isim": "DEMBA",
     "soyisim": "BA",
     "takim": 10
-  },
-  
-  {
-    "uyruk": "BELÇİKA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 250,
-    "isim": "WITSEL",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "URUGUAY",
-    "pozisyon": "STOPER",
-    "no": 251,
-    "isim": "DIEGO",
-    "soyisim": "GODIN",
-    "takim": 8
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 252,
-    "isim": "LUCAS",
-    "soyisim": "HERNANDEZ",
-    "takim": 2
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SANTRAFOR",
-    "no": 253,
-    "isim": "GAMEIRO",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "KARADAĞ",
-    "pozisyon": "STOPER",
-    "no": 254,
-    "isim": "SAVIC",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "KALECİ",
-    "no": 255,
-    "isim": "DE",
-    "soyisim": "GEA",
-    "takim": 2
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "10 NUMARA",
-    "no": 256,
-    "isim": "LEMAR",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ BEK",
-    "no": 257,
-    "isim": "TRIPPIER",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 258,
-    "isim": "JUANFRAN",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 259,
-    "isim": "GABI",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 260,
-    "isim": "MOTTA",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL KANAT",
-    "no": 261,
-    "isim": "VITOLO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 262,
-    "isim": "MORATA",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "ORTA AFRİKA CUMHURİYETİ",
-    "pozisyon": "ÖN LİBERO",
-    "no": 263,
-    "isim": "KONDOGBIA",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "HIRVATİSTAN",
-    "pozisyon": "SANTRAFOR",
-    "no": 264,
-    "isim": "MANDZUKIC",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "10 NUMARA",
-    "no": 265,
-    "isim": "GAITAN",
-    "soyisim": "",
-    "takim": 8 
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "STOPER",
-    "no": 266,
-    "isim": "MIRANDA",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "KALECİ",
-    "no": 267,
-    "isim": "COURTOIS",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 268,
-    "isim": "KOKE",
-    "soyisim": "",
-    "takim": 1
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 269,
-    "isim": "CUNHA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "STOPER",
-    "no": 270,
-    "isim": "MONTERO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "FAS",
-    "pozisyon": "KALECİ",
-    "no": 271,
-    "isim": "BONO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "SOL KANAT",
-    "no": 272,
-    "isim": "CARRASCO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL BEK",
-    "no": 273,
-    "isim": "RENAN",
-    "soyisim": "LODI",
-    "takim": 3
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "STOPER",
-    "no": 274,
-    "isim": "ALDERWEIRELD",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İRLANDA",
-    "pozisyon": "SAĞ BEK",
-    "no": 275,
-    "isim": "DOHERTY",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SOL KANAT",
-    "no": 276,
-    "isim": "SIMAO",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "ÇEK CUMHURİYETİ",
-    "pozisyon": "STOPER",
-    "no": 277,
-    "isim": "UJFALUSI",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "MOZAMBİK",
-    "pozisyon": "SOL BEK",
-    "no": 278,
-    "isim": "REINILDO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 279,
-    "isim": "DE",
-    "soyisim": "PAUL",
-    "takim": 5
-  },{
-    "uyruk": "TÜRKİYE",
-    "pozisyon": "SOL KANAT",
-    "no": 280,
-    "isim": "ARDA",
-    "soyisim": "TURAN",
-    "takim": 8
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 281,
-    "isim": "TORRES",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "URUGUAY",
-    "pozisyon": "STOPER",
-    "no": 282,
-    "isim": "GIMENEZ",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "SLOVENYA",
-    "pozisyon": "KALECİ",
-    "no": 283,
-    "isim": "OBLAK",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SANTRAFOR",
-    "no": 284,
-    "isim": "AGUERO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 285,
-    "isim": "RAUL",
-    "soyisim": "GARCIA",
-    "takim": 5
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "FORVET ARKASI",
-    "no": 286,
-    "isim": "JOAO",
-    "soyisim": "FELIX",
-    "takim": 3
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL BEK",
-    "no": 287,
-    "isim": "FILIPE",
-    "soyisim": "LUIS",
-    "takim": 8
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 288,
-    "isim": "TIAGO",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 289,
-    "isim": "LLORENTE",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "GANA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 290,
-    "isim": "PARTEY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "KOLOMBİYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 291,
-    "isim": "FALCAO",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 292,
-    "isim": "RODRI",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SAĞ BEK",
-    "no": 293,
-    "isim": "MOLINA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SANTRAFOR",
-    "no": 294,
-    "isim": "GRIEZMANN",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "MEKSİKA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 295,
-    "isim": "HERRERA",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL BEK",
-    "no": 296,
-    "isim": "REGULION",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 297,
-    "isim": "SAUL",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "STOPER",
-    "no": 298,
-    "isim": "HERMOSO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SAĞ KANAT",
-    "no": 299,
-    "isim": "CORREA",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "FAS",
-    "pozisyon": "SAĞ KANAT",
-    "no": 300,
-    "isim": "ZIYECH",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 301,
-    "isim": "PEDRO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 302,
-    "isim": "ASHLEY",
-    "soyisim": "COLE",
-    "takim": 6
-  },{
-    "uyruk": "ÇEK CUMHURİYETİ",
-    "pozisyon": "KALECİ",
-    "no": 303,
-    "isim": "CECH",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 304,
-    "isim": "MORATA",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 305,
-    "isim": "GALLAS",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 306,
-    "isim": "AZPILICUETA",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ KANAT",
-    "no": 307,
-    "isim": "MADUEKE",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL KANAT BEK",
-    "no": 308,
-    "isim": "MARCOS",
-    "soyisim": "ALONSO",
-    "takim": 7
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SAĞ BEK",
-    "no": 309,
-    "isim": "BOSINGWA",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 310,
-    "isim": "LAMPARD",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 311,
-    "isim": "BAKAYOKO",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 312,
-    "isim": "ZOUMA",
-    "soyisim": "",
-    "takim": 6
-  },
-  {
-    "uyruk": "BELÇİKA",
-    "pozisyon": "SOL KANAT",
-    "no": 313,
-    "isim": "EDEN",
-    "soyisim": "HAZARD",
-    "takim": 3
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 314,
-    "isim": "HAVERTZ",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "KALECİ",
-    "no": 315,
-    "isim": "KEPA",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "GABON",
-    "pozisyon": "SANTRAFOR",
-    "no": 316,
-    "isim": "AUBAMEYANG",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SANTRAFOR",
-    "no": 317,
-    "isim": "ABRAHAM",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "10 NUMARA",
-    "no": 318,
-    "isim": "OSCAR",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 319,
-    "isim": "BELLETTI",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL BEK",
-    "no": 320,
-    "isim": "FILIPE",
-    "soyisim": "LUIS",
-    "takim": 8
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL KANAT",
-    "no": 321,
-    "isim": "WILLIAN",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SANTRAFOR",
-    "no": 322,
-    "isim": "GIROUD",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 323,
-    "isim": "FOFANA",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SOL KANAT",
-    "no": 324,
-    "isim": "STERLING",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 325,
-    "isim": "WERNER",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "FİLDİŞİ SAHİLİ",
-    "pozisyon": "SANTRAFOR",
-    "no": 326,
-    "isim": "DIDIER",
-    "soyisim": "DROGBA",
-    "takim": 10
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "STOPER",
-    "no": 327,
-    "isim": "CARVALHO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "GANA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 328,
-    "isim": "ESSIEN",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 329,
-    "isim": "FABREGAS",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "STOPER",
-    "no": 330,
-    "isim": "DAVID",
-    "soyisim": "LUIZ",
-    "takim": 7
-  },{
-    "uyruk": "UKRAYNA",
-    "pozisyon": "SOL KANAT",
-    "no": 331,
-    "isim": "MUDRYK",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 332,
-    "isim": "BALLACK",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "SIRBİSTAN",
-    "pozisyon": "SAĞ BEK",
-    "no": 333,
-    "isim": "IVANOVIC",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SANTRAFOR",
-    "no": 334,
-    "isim": "HIGUAIN",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "STOPER",
-    "no": 335,
-    "isim": "CAHILL",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 336,
-    "isim": "JORGINHO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 337,
-    "isim": "KANTE",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "KOLOMBİYA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 338,
-    "isim": "CUADRADO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "SENEGAL",
-    "pozisyon": "STOPER",
-    "no": 339,
-    "isim": "KOULIBALY",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "SENEGAL",
-    "pozisyon": "KALECİ",
-    "no": 340,
-    "isim": "MENDY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "HOLLANDA",
-    "pozisyon": "STOPER",
-    "no": 341,
-    "isim": "AKE",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 342,
-    "isim": "ENZO",
-    "soyisim": "FERNANDEZ",
-    "takim": 5
-  },{
-    "uyruk": "ABD",
-    "pozisyon": "SAĞ KANAT",
-    "no": 343,
-    "isim": "PULISIC",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SOL KANAT",
-    "no": 344,
-    "isim": "SCHURRLE",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL BEK",
-    "no": 345,
-    "isim": "CUCURELLA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "NİJERYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 346,
-    "isim": "OBI",
-    "soyisim": "MIKEL",
-    "takim": 8
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SOL BEK",
-    "no": 347,
-    "isim": "EMERSON",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "UKRAYNA",
-    "pozisyon": "SANTRAFOR",
-    "no": 348,
-    "isim": "SHEVCHENKO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 349,
-    "isim": "RAMIRES",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 450,
-    "isim": "XHAKA",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ KANAT",
-    "no": 451,
-    "isim": "WALCOTT",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 452,
-    "isim": "BELLERIN",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 453,
-    "isim": "GILBERTO",
-    "soyisim": "SILVA",
-    "takim": 7
-  },{
-    "uyruk": "ŞİLİ",
-    "pozisyon": "SANTRAFOR",
-    "no": 454,
-    "isim": "ALEXIS",
-    "soyisim": "SANCHEZ",
-    "takim": 8
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SANTRAFOR",
-    "no": 455,
-    "isim": "LACAZETTE",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İSKOÇYA",
-    "pozisyon": "SOL BEK",
-    "no": 456,
-    "isim": "TIERNEY",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "RUSYA",
-    "pozisyon":"SOL KANAT",
-    "no": 457,
-    "isim": "ARSHAVIN",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SOL BEK",
-    "no": 458,
-    "isim": "CLICHY",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "SOL KANAT",
-    "no": 459,
-    "isim": "TROSSARD",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 460,
-    "isim": "MESUT",
-    "soyisim": "OZIL",
-    "takim": 7
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SANTRAFOR",
-    "no": 461,
-    "isim": "HENRY",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 462,
-    "isim": "JESUS",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SAĞ BEK",
-    "no": 463,
-    "isim": "SAGNA",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "KALECİ",
-    "no": 464,
-    "isim": "LENO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 465,
-    "isim": "GUENDOUZI",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "10 NUMARA",
-    "no": 466,
-    "isim": "NASRI",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 467,
-    "isim": "ARTETA",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "GALLER",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 468,
-    "isim": "RAMSEY",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "STOPER",
-    "no": 469,
-    "isim": "MUSTAFI",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 470,
-    "isim": "CAZORLA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "KOLOMBİYA",
-    "pozisyon": "KALECİ",
-    "no": 471,
-    "isim": "OSPINA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ÇEK CUMHURİYETİ",
-    "pozisyon": "10 NUMARA",
-    "no": 472,
-    "isim": "ROSICKY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "HOLLANDA",
-    "pozisyon": "SANTRAFOR",
-    "no": 473,
-    "isim": "VAN",
-    "soyisim": "PERSIE",
-    "takim": 6
-  },{
-    "uyruk": "UKRAYNA",
-    "pozisyon": "SOL BEK",
-    "no": 474,
-    "isim": "ZINCHENKO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "STOPER",
-    "no": 475,
-    "isim": "GABRIEL",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ KANAT",
-    "no": 476,
-    "isim": "SAKA",
-    "soyisim": "",
-    "takim": 1
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "STOPER",
-    "no": 477,
-    "isim": "MERTESACKER",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 478,
-    "isim": "GALLAS",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 479,
-    "isim": "VIEIRA",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "BOSNA HERSEK",
-    "pozisyon": "SOL BEK",
-    "no": 480,
-    "isim": "KOLASINAC",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "STOPER",
-    "no": 481,
-    "isim": "VERMAELEN",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "NİJERYA",
-    "pozisyon": "10 NUMARA",
-    "no": 482,
-    "isim": "IWOBI",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 483,
-    "isim": "KOSCIELNY",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SOL BEK",
-    "no": 484,
-    "isim": "GIBBS",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "POLONYA",
-    "pozisyon": "KALECİ",
-    "no": 485,
-    "isim": "SZCZESNY",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "MISIR",
-    "pozisyon": "ÖN LİBERO",
-    "no": 486,
-    "isim": "ELNENY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL KANAT",
-    "no": 487,
-    "isim": "MARTINELLI",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "NORVEÇ",
-    "pozisyon": "10 NUMARA",
-    "no": 488,
-    "isim": "ODEGAARD",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 489,
-    "isim": "CEBALLOS",
-    "soyisim": "",
-    "takim":4
-  },{
-    "uyruk": "CEZAYİR",
-    "pozisyon": "ÖN LİBERO",
-    "no": 490,
-    "isim": "BENNACER",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 491,
-    "isim": "SALIBA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "FİLDİŞİ SAHİLİ",
-    "pozisyon": "SAĞ KANAT",
-    "no": 492,
-    "isim": "PEPE",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL BEK",
-    "no": 493,
-    "isim": "MONREAL",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "HOLLANDA",
-    "pozisyon": "FORVET ARKASI",
-    "no": 494,
-    "isim": "BERGKAMP",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "TOGO",
-    "pozisyon": "SANTRAFOR",
-    "no": 495,
-    "isim": "ADEBAYOR",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "KALECİ",
-    "no": 496,
-    "isim": "RAMSDALE",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SOL KANAT BEK",
-    "no": 497,
-    "isim": "NUNO",
-    "soyisim": "TAVARES",
-    "takim": 3
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SAĞ BEK",
-    "no": 498,
-    "isim": "DEBUCHY",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "MEKSİKA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 499,
-    "isim": "VELA",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "ÖN LİBERO",
-    "no": 500,
-    "isim": "PHILLIPS",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 501,
-    "isim": "FERNANDINHO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "BOSNA HERSEK",
-    "pozisyon": "SANTRAFOR",
-    "no": 502,
-    "isim": "DZEKO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "STOPER",
-    "no": 503,
-    "isim": "BOATENG",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "10 NUMARA",
-    "no": 504,
-    "isim": "BERNARDO",
-    "soyisim": "SILVA",
-    "takim": 3
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SANTRAFOR",
-    "no": 505,
-    "isim": "TEVEZ",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 506,
-    "isim": "JESUS",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SANTRAFOR",
-    "no": 507,
-    "isim": "ALVAREZ",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "STOPER",
-    "no": 508,
-    "isim": "KOMPANY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "KALECİ",
-    "no": 509,
-    "isim": "JOE",
-    "soyisim": "HART",
-    "takim": 6
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 510,
-    "isim": "GUNDOGAN",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "STOPER",
-    "no": 511,
-    "isim": "STONES",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "KARADAĞ",
-    "pozisyon": "SANTRAFOR",
-    "no": 512,
-    "isim": "JOVETIC",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ KANAT",
-    "no": 513,
-    "isim": "SANCHO",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 514,
-    "isim": "JESUS",
-    "soyisim": "NAVAS",
-    "takim": 3
-  },{
-    "uyruk": "NORVEÇ",
-    "pozisyon": "SANTRAFOR",
-    "no": 515,
-    "isim": "HAALAND",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 516,
-    "isim": "DAVID",
-    "soyisim": "SILVA",
-    "takim": 4
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SAĞ BEK",
-    "no": 517,
-    "isim": "ZABALETA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 518,
-    "isim": "SANE",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "SIRBİSTAN",
-    "pozisyon": "SOL BEK",
-    "no": 519,
-    "isim": "KOLAROV",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SOL KANAT",
-    "no": 520,
-    "isim": "GREALISH",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "CEZAYİR",
-    "pozisyon": "SAĞ KANAT",
-    "no": 521,
-    "isim": "MAHREZ",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "STOPER",
-    "no": 522,
-    "isim": "LESCOTT",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SAĞ BEK",
-    "no": 523,
-    "isim": "CANCELO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SOL BEK",
-    "no": 524,
-    "isim": "CLICHY",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "ÖN LİBERO",
-    "no": 525,
-    "isim": "BARRY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SOL KANAT",
-    "no": 526,
-    "isim": "FODEN",
-    "soyisim": "",
-    "takim": 1
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 527,
-    "isim": "BRAHIM",
-    "soyisim": "DIAZ",
-    "takim": 3
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "KALECİ",
-    "no": 528,
-    "isim": "EDERSON",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "STOPER",
-    "no": 529,
-    "isim": "LAPORTE",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ KANAT",
-    "no": 530,
-    "isim": "WRIGHT",
-    "soyisim": "PHILLIPS",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL KANAT",
-    "no": 531,
-    "isim": "NOLITO",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 532,
-    "isim": "DE",
-    "soyisim": "BRUYNE",
-    "takim": 5
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 533,
-    "isim": "ELANO",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 534,
-    "isim": "MILNER",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "STOPER",
-    "no": 535,
-    "isim": "OTAMENDI",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "FİLDİŞİ SAHİLİ",
-    "pozisyon": "STOPER",
-    "no": 536,
-    "isim": "KOLO",
-    "soyisim": "TOURE",
-    "takim": 5
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ BEK",
-    "no": 537,
-    "isim": "WALKER",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ BEK",
-    "no": 538,
-    "isim": "RICHARDS",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL BEK",
-    "no": 539,
-    "isim": "ANGELINO",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "HOLLANDA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 540,
-    "isim": "DE",
-    "soyisim": "JONG",
-    "takim": 10
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "STOPER",
-    "no": 541,
-    "isim": "RUBEN",
-    "soyisim": "DIAS",
-    "takim": 2
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "SANTRAFOR",
-    "no": 542,
-    "isim": "AGUERO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL KANAT",
-    "no": 543,
-    "isim": "TORRES",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ BEK",
-    "no": 544,
-    "isim": "LEWIS",
-    "soyisim": "",
-    "takim": 1
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "STOPER",
-    "no": 545,
-    "isim": "AKANJI",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "STOPER",
-    "no": 546,
-    "isim": "DEMICHELIS",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 547,
-    "isim": "RODRI",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "FİLDİŞİ SAHİLİ",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 548,
-    "isim": "YAYA",
-    "soyisim": "TOURE",
-    "takim": 9
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 549,
-    "isim": "BALOTELLI",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 600,
-    "isim": "BELLINGHAM",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "SOL KANAT",
-    "no": 601,
-    "isim": "HAZARD",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "KALECİ",
-    "no": 602,
-    "isim": "BURKI",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 603,
-    "isim": "WEIGL",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "KALECİ",
-    "no": 604,
-    "isim": "WEIDENFELLER",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "POLONYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 605,
-    "isim": "PISZCZEK",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 606,
-    "isim": "DAHOUD",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "NORVEÇ",
-    "pozisyon": "SANTRAFOR",
-    "no": 607,
-    "isim": "HAALAND",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "STOPER",
-    "no": 608,
-    "isim": "GINTER",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 609,
-    "isim": "JANUZAJ",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL BEK",
-    "no": 610,
-    "isim": "DEDE",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "ÖN LİBERO",
-    "no": 611,
-    "isim": "BENDER",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "TÜRKİYE",
-    "pozisyon": "ÖN LİBERO",
-    "no": 612,
-    "isim": "OZCAN",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 613,
-    "isim": "BRANDT",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İSVEÇ",
-    "pozisyon": "SANTRAFOR",
-    "no": 614,
-    "isim": "ISAK",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 615,
-    "isim": "GOTZE",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "SENEGAL",
-    "pozisyon": "STOPER",
-    "no": 616,
-    "isim": "DIALLO",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "BELÇİKA",
-    "pozisyon": "SAĞ BEK",
-    "no": 617,
-    "isim": "MEUNIER",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ABD",
-    "pozisyon": "10 NUMARA",
-    "no": 618,
-    "isim": "REYNA",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SOL BEK",
-    "no": 619,
-    "isim": "GUERREIRO",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 620,
-    "isim": "GROSSKREUTZ",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 621,
-    "isim": "GUNDOGAN",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "TÜRKİYE",
-    "pozisyon": "STOPER",
-    "no": 622,
-    "isim": "TOPRAK",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "NORVEÇ",
-    "pozisyon": "SAĞ BEK",
-    "no": 623,
-    "isim": "RYERSON",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "FİLDİŞİ SAHİLİ",
-    "pozisyon": "SANTRAFOR",
-    "no": 624,
-    "isim": "HALLER",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "KALECİ",
-    "no": 625,
-    "isim": "KOBEL",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "DANİMARKA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 626,
-    "isim": "DELANEY",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İNGİLTERE",
-    "pozisyon": "SAĞ KANAT",
-    "no": 627,
-    "isim": "SANCHO",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 628,
-    "isim": "CASTRO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SOL BEK",
-    "no": 629,
-    "isim": "SCHMELZER",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 630,
-    "isim": "ZAGADOU",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "HOLLANDA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 631,
-    "isim": "MALEN",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "STOPER",
-    "no": 632,
-    "isim": "AKANJI",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ÇEK CUMHURİYETİ",
-    "pozisyon": "SANTRAFOR",
-    "no": 633,
-    "isim": "KOLLER",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "HIRVATİSTAN",
-    "pozisyon": "SANTRAFOR",
-    "no": 634,
-    "isim": "PETRIC",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "SLOVENYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 635,
-    "isim": "KAMPL",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SOL KANAT",
-    "no": 636,
-    "isim": "ADEYEMI",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SOL BEK",
-    "no": 637,
-    "isim": "SCHULZ",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SOL KANAT",
-    "no": 638,
-    "isim": "SCHURRLE",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "FAS",
-    "pozisyon": "SAĞ BEK",
-    "no": 639,
-    "isim": "HAKIMI",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "SIRBİSTAN",
-    "pozisyon": "STOPER",
-    "no": 640,
-    "isim": "SUBOTIC",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 641,
-    "isim": "IMMOBILE",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "UKRAYNA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 642,
-    "isim": "YARMOLENKO",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "10 NUMARA",
-    "no": 643,
-    "isim": "MARCO",
-    "soyisim": "REUS",
-    "takim": 4
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 644,
-    "isim": "PASSLACK",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "KALECİ",
-    "no": 645,
-    "isim": "LEHMANN",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 646,
-    "isim": "MOREY",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "ALMANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 647,
-    "isim": "MOUKOKO",
-    "soyisim": "",
-    "takim": 1
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SOL BEK",
-    "no": 648,
-    "isim": "GOMEZ",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 649,
-    "isim": "DEMBELE",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "STOPER",
-    "no": 650,
-    "isim": "BONUCCI",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 651,
-    "isim": "DOUGLAS",
-    "soyisim": "COSTA",
-    "takim": 7
-  },{
-    "uyruk": "SIRBİSTAN",
-    "pozisyon": "SAĞ KANAT",
-    "no": 652,
-    "isim": "KRASIC",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "SAĞ BEK",
-    "no": 653,
-    "isim": "LICHTSTEINER",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SANTRAFOR",
-    "no": 654,
-    "isim": "TREZEGUET",
-    "soyisim": "",
-    "takim":8
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 655,
-    "isim": "RABIOT",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 656,
-    "isim": "KEAN",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 657,
-    "isim": "MATUIDI",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "SOL BEK",
-    "no": 658,
-    "isim": "ALEX",
-    "soyisim": "SANDRO",
-    "takim": 4
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "KALECİ",
-    "no": 659,
-    "isim": "BUFFON",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İSPANYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 660,
-    "isim": "LLORENTE",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "GANA",
-    "pozisyon": "SOL KANAT BEK",
-    "no": 661,
-    "isim": "ASAMOAH",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "ŞİLİ",
-    "pozisyon": "SAĞ BEK",
-    "no": 662,
-    "isim": "ISLA",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SAĞ KANAT",
-    "no": 663,
-    "isim": "BERNARDESCHI",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "STOPER",
-    "no": 664,
-    "isim": "BREMER",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "SIRBİSTAN",
-    "pozisyon": "SOL KANAT",
-    "no": 665,
-    "isim": "KOSTIC",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "FORVET ARKASI",
-    "no": 666,
-    "isim": "DEL",
-    "soyisim": "PIERO",
-    "takim": 4
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 667,
-    "isim": "MARCHISIO",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "KOLOMBİYA",
-    "pozisyon": "SAĞ ORTA SAHA",
-    "no": 668,
-    "isim": "CUADRADO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "POLONYA",
-    "pozisyon": "KALECİ",
-    "no": 669,
-    "isim": "SZCZESNY",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "TÜRKİYE",
-    "pozisyon": "STOPER",
-    "no": 670,
-    "isim": "DEMIRAL",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "STOPER",
-    "no": 671,
-    "isim": "CHIELLINI",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 672,
-    "isim": "ARTHUR",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İSVİÇRE",
-    "pozisyon": "ÖN LİBERO",
-    "no": 673,
-    "isim": "ZAKARIA",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "KALECİ",
-    "no": 674,
-    "isim": "NETO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SOL KANAT",
-    "no": 675,
-    "isim": "CHIESA",
-    "soyisim": "",
-    "takim": 2
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SOL BEK",
-    "no": 676,
-    "isim": "GROSSO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "GABON",
-    "pozisyon": "ÖN LİBERO",
-    "no": 677,
-    "isim": "LEMINA",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "10 NUMARA",
-    "no": 678,
-    "isim": "DYBALA",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 679,
-    "isim": "DE",
-    "soyisim": "SCIGLIO",
-    "takim": 4
-  },{
-    "uyruk": "FAS",
-    "pozisyon": "STOPER",
-    "no": 680,
-    "isim": "BENATIA",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 681,
-    "isim": "POGBA",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "POLONYA",
-    "pozisyon": "SANTRAFOR",
-    "no": 682,
-    "isim": "MILIK",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "ÇEK CUMHURİYETİ",
-    "pozisyon": "SOL ORTA SAHA",
-    "no": 683,
-    "isim": "NEDVED",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "SAĞ BEK",
-    "no": 684,
-    "isim": "ZAMBROTTA",
-    "soyisim": "",
-    "takim": 7
-  },{
-    "uyruk": "İSVEÇ",
-    "pozisyon": "SAĞ KANAT",
-    "no": 685,
-    "isim": "KULUSEVSKI",
-    "soyisim": "",
-    "takim": 4
-  },{
-    "uyruk": "BREZİLYA",
-    "pozisyon": "10 NUMARA",
-    "no": 686,
-    "isim": "DIEGO",
-    "soyisim": "",
-    "takim": 10
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SOL KANAT",
-    "no": 687,
-    "isim": "COMAN",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "SIRBİSTAN",
-    "pozisyon": "SANTRAFOR",
-    "no": 688,
-    "isim": "VLAHOVIC",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SAĞ BEK",
-    "no": 689,
-    "isim": "CANCELO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "HOLLANDA",
-    "pozisyon": "STOPER",
-    "no": 690,
-    "isim": "DE",
-    "soyisim": "LIGT",
-    "takim": 3
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "STOPER",
-    "no": 691,
-    "isim": "THURAM",
-    "soyisim": "",
-    "takim": 5
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "STOPER",
-    "no": 692,
-    "isim": "BARZAGLI",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "PORTEKİZ",
-    "pozisyon": "SANTRAFOR",
-    "no": 693,
-    "isim": "RONALDO",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "ABD",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 694,
-    "isim": "MCKENNIE",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "ARJANTİN",
-    "pozisyon": "ÖN LİBERO",
-    "no": 695,
-    "isim": "PAREDES",
-    "soyisim": "",
-    "takim": 8
-  },{
-    "uyruk": "FRANSA",
-    "pozisyon": "SOL BEK",
-    "no": 696,
-    "isim": "EVRA",
-    "soyisim": "",
-    "takim": 6
-  },{
-    "uyruk": "URUGUAY",
-    "pozisyon": "MERKEZ ORTA SAHA",
-    "no": 697,
-    "isim": "BENTANCUR",
-    "soyisim": "",
-    "takim": 3
-  },{
-    "uyruk": "DANİMARKA",
-    "pozisyon": "SANTRAFOR",
-    "no": 698,
-    "isim": "BENDTNER",
-    "soyisim": "",
-    "takim": 9
-  },{
-    "uyruk": "İTALYA",
-    "pozisyon": "FORVET ARKASI",
-    "no": 699,
-    "isim": "GIOVINCO",
-    "soyisim": "",
-    "takim": 9
   },{
     "uyruk": "CEZAYİR",
     "pozisyon": "MERKEZ ORTA SAHA",
