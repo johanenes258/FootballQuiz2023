@@ -6,12 +6,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:football_quiz_app/KariyerBul.dart';
 import 'package:football_quiz_app/RouteCreater.dart';
-
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'FC Quiz',
       onGenerateRoute: RouteCreater.routecreater,
       builder: EasyLoading.init(),
       home: AnimatedSplashScreen(
@@ -106,19 +107,21 @@ class _AnaSayfaState extends State<AnaSayfa> {
     super.initState();
   }
 
-  late int yildiz;
-  late int anahtar;
+  late int yildiz, anahtar, winstreak, video;
   late List<String> AcildiMi, YuzdeKac;
   late List<String> DogruMu;
 
   void verileriOku() async {
     final preferences = await SharedPreferences.getInstance();
-    YuzdeKac = preferences.getStringList("YuzdeKac") ?? List.filled(14, "0");
+    YuzdeKac = preferences.getStringList("YuzdeKac") ?? List.filled(20, "0");
     yildiz = preferences.getInt("yildiz") ?? 200;
-    anahtar = preferences.getInt("anahtar") ?? 100;
+    anahtar = preferences.getInt("anahtar") ?? 15;
+    winstreak = 0;
+    video = 0;
     AcildiMi =
-        preferences.getStringList("AcildiMi") ?? List.filled(14, "false");
-    DogruMu = preferences.getStringList("DogruMu") ?? List.filled(700, "false");
+        preferences.getStringList("AcildiMi") ?? List.filled(20, "false");
+    DogruMu =
+        preferences.getStringList("DogruMu") ?? List.filled(1000, "false");
   }
 
   void verileriKaydet() async {
@@ -128,6 +131,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
     preferences.setStringList("AcildiMi", AcildiMi);
     preferences.setStringList("DogruMu", DogruMu);
     preferences.setStringList("YuzdeKac", YuzdeKac);
+    preferences.setInt("winstreak", winstreak);
+    preferences.setInt("video", video);
   }
 
   @override
@@ -138,7 +143,11 @@ class _AnaSayfaState extends State<AnaSayfa> {
         resizeToAvoidBottomInset: false,
         body: Container(
           width: double.infinity,
-          decoration: BoxDecoration(color: Colors.cyan.shade800),
+          decoration: BoxDecoration(
+              image: DecorationImage(
+            image: AssetImage("assets/images/arkaplan.jpg"),
+            fit: BoxFit.fill,
+          )),
           child: Column(
             children: [
               Padding(
@@ -148,16 +157,16 @@ class _AnaSayfaState extends State<AnaSayfa> {
                   width: 300,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/images/applogo2.png'))),
+                          image: AssetImage('assets/images/sadelogo.png'))),
                 ),
               ),
               Padding(
                   padding: EdgeInsets.only(top: 20),
-                  child: ButtonContainer("Oyna", Icons.sports_soccer)),
+                  child: ButtonContainer("Oyna", Icons.sports_soccer, 115)),
               Padding(
                   padding: EdgeInsets.only(top: 50),
                   child: ButtonContainer(
-                      "Diğer Uygulamalara Gözat", Icons.search)),
+                      "Diğer Uygulamalara Gözat", Icons.search, 330)),
               Padding(
                   padding: EdgeInsets.only(top: 60),
                   child: Opacity(
@@ -175,44 +184,48 @@ class _AnaSayfaState extends State<AnaSayfa> {
     );
   }
 
-  ZoomTapAnimation ButtonContainer(String isim, IconData ikon) {
+  ZoomTapAnimation ButtonContainer(String isim, IconData ikon, double x) {
     return ZoomTapAnimation(
+      onTap: () => Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => KariyerBul(
+              video: video,
+              winstreak: winstreak,
+              YuzdeKac: YuzdeKac,
+              DogruMu: DogruMu,
+              AcildiMi: AcildiMi,
+              anahtar: anahtar,
+              yildiz: yildiz,
+            ),
+          )),
       child: Container(
+          width: x,
           height: 60,
           decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("assets/images/buttonplan.jpg"),
+                  fit: BoxFit.fill),
               borderRadius: BorderRadius.circular(20),
               boxShadow: [BoxShadow(blurRadius: 5)]),
-          child: ElevatedButton.icon(
-            onPressed: () {
-              Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => KariyerBul(
-                      YuzdeKac: YuzdeKac,
-                      DogruMu: DogruMu,
-                      AcildiMi: AcildiMi,
-                      anahtar: anahtar,
-                      yildiz: yildiz,
-                    ),
-                  ));
-            },
-            icon: Icon(
-              ikon,
-              color: Colors.black,
-            ),
-            label: Text(
-              isim,
-              style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold),
-            ),
-            style: ElevatedButton.styleFrom(
-                foregroundColor: Color.fromARGB(255, 145, 130, 79),
-                splashFactory: NoSplash.splashFactory,
-                backgroundColor: Color.fromARGB(255, 145, 130, 79),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20))),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Icon(
+                ikon,
+                color: Colors.black,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(right: 8),
+                child: Text(
+                  isim,
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold),
+                ),
+              )
+            ],
           )),
     );
   }

@@ -2,18 +2,21 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:football_quiz_app/Change.dart';
+import 'package:football_quiz_app/Finish.dart';
 import 'package:football_quiz_app/KariyerBul.dart';
 import 'package:football_quiz_app/KariyerBulSoru.dart';
 import 'package:football_quiz_app/KariyerListe.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class KariyerPart extends StatefulWidget {
-  final int part, yildiz, anahtar, deger;
+  final int part, yildiz, anahtar, deger, winstreak, video;
   final String takimad;
   final List<String> AcildiMi, DogruMu, YuzdeKac;
 
   const KariyerPart(
       {Key? key,
+      required this.video,
+      required this.winstreak,
       required this.YuzdeKac,
       required this.DogruMu,
       required this.AcildiMi,
@@ -45,6 +48,8 @@ class _KariyerPartState extends State<KariyerPart> {
         context,
         MaterialPageRoute(
           builder: (context) => KariyerBul(
+            video: video,
+            winstreak: widget.winstreak,
             YuzdeKac: widget.YuzdeKac,
             DogruMu: widget.DogruMu,
             AcildiMi: widget.AcildiMi,
@@ -54,12 +59,13 @@ class _KariyerPartState extends State<KariyerPart> {
         )));
   }
 
-  late int part, yildiz, anahtar;
+  late String yazi;
+  late int part, yildiz, anahtar, video;
   bool BittiMi = false;
   late Color renk;
   Color DogrulukRengi(int index) {
     if (widget.DogruMu[index + widget.deger] == "true") {
-      return Color.fromARGB(255, 46, 87, 183);
+      return Color.fromARGB(255, 54, 201, 140);
     } else {
       if (index == 0) {
         return Colors.black;
@@ -76,6 +82,55 @@ class _KariyerPartState extends State<KariyerPart> {
     part = widget.part;
     yildiz = widget.yildiz;
     anahtar = widget.anahtar;
+    video = widget.video;
+  }
+
+  Widget IconTanim(int id) {
+    if (widget.DogruMu[id + widget.deger] == "true") {
+      return Icon(
+        Icons.check,
+        color: Colors.green.shade700,
+        size: 28,
+      );
+    } else {
+      return Icon(
+        Icons.close,
+        color: Colors.red.shade700,
+        size: 28,
+      );
+    }
+  }
+
+  Future<void> _navigateAndDisplaySelection(BuildContext context) async {
+    final result = await Navigator.push(
+      context,
+      MaterialPageRoute(
+          builder: (context) => Change(
+                video: video,
+                anahtar: anahtar,
+                yildiz: yildiz,
+              )),
+    );
+
+    if (!mounted) return;
+    setState(() {
+      anahtar = result[0];
+      yildiz = result[1];
+      video = result[2];
+    });
+  }
+
+  String Yazi(int id, String isim, String soyisim) {
+    if (widget.DogruMu[id + widget.deger] == "true") {
+      if (soyisim != "") {
+        yazi = soyisim;
+      } else {
+        yazi = isim;
+      }
+    } else {
+      yazi = "?";
+    }
+    return yazi;
   }
 
   @override
@@ -90,87 +145,99 @@ class _KariyerPartState extends State<KariyerPart> {
       onWillPop: _onWillPop,
       child: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [
-          Color.fromARGB(255, 77, 145, 200),
-          Color.fromARGB(255, 181, 116, 116)
-        ], end: Alignment.bottomCenter, begin: Alignment.topCenter)),
+            image: DecorationImage(
+                image: AssetImage("assets/images/arkaplan.jpg"),
+                fit: BoxFit.fill)),
         child: Scaffold(
           backgroundColor: Colors.transparent,
-          appBar: AppBar(
-            leading: Padding(
-              padding: EdgeInsets.only(bottom: 52),
-              child: GestureDetector(
-                onTap: () {
-                  Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => KariyerBul(
-                          YuzdeKac: widget.YuzdeKac,
-                          DogruMu: widget.DogruMu,
-                          yildiz: yildiz,
-                          anahtar: anahtar,
-                          AcildiMi: widget.AcildiMi,
-                        ),
-                      ));
-                },
-                child: Icon(Icons.arrow_back),
-              ),
-            ),
-            toolbarHeight: 110,
-            shape: Border(bottom: BorderSide(width: 1)),
-            backgroundColor: Color.fromARGB(255, 205, 199, 180),
-            iconTheme: IconThemeData(color: Colors.black),
-            flexibleSpace: FlexibleSpaceBar(
-              centerTitle: true,
-              title: Text(
-                widget.takimad,
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black,
-                    fontSize: 24),
-              ),
-            ),
-            actions: [
-              Padding(
-                padding: const EdgeInsets.only(bottom: 52),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.orange,
-                    ),
-                    Text(
-                      '$yildiz',
-                      style: TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16),
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Icon(
-                      Icons.key,
-                      color: Colors.blue,
-                    ),
-                    Text(
-                      '$anahtar',
-                      style: TextStyle(
-                          fontSize: 16,
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold),
-                    ),
-                    SizedBox(
-                      width: 10,
-                    )
-                  ],
-                ),
-              )
-            ],
-          ),
           resizeToAvoidBottomInset: false,
           body: CustomScrollView(
             slivers: [
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 30),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(
+                                left: 10, right: 10, top: 10),
+                            child: IconButton(
+                                onPressed: () {
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => KariyerBul(
+                                          video: video,
+                                          winstreak: widget.winstreak,
+                                          YuzdeKac: widget.YuzdeKac,
+                                          DogruMu: widget.DogruMu,
+                                          yildiz: yildiz,
+                                          anahtar: anahtar,
+                                          AcildiMi: widget.AcildiMi,
+                                        ),
+                                      ));
+                                },
+                                icon: Icon(
+                                  Icons.arrow_back,
+                                  size: 32,
+                                  color: Colors.black,
+                                )),
+                          ),
+                          Padding(
+                              padding: EdgeInsets.only(left: 150, top: 10),
+                              child: Container(
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.stars_sharp,
+                                    ),
+                                    SizedBox(width: 2),
+                                    Text(
+                                      yildiz.toString(),
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                    SizedBox(width: 5),
+                                    Icon(
+                                      Icons.key,
+                                      color: Color.fromARGB(255, 3, 3, 3),
+                                    ),
+                                    SizedBox(width: 2),
+                                    Text(
+                                      anahtar.toString(),
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ],
+                                ),
+                                width: 125,
+                                height: 30,
+                                decoration: BoxDecoration(
+                                    border: Border.all(width: 1),
+                                    borderRadius: BorderRadius.circular(15)),
+                              )),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10),
+                            child: IconButton(
+                                onPressed: () {
+                                  _navigateAndDisplaySelection(context);
+                                },
+                                icon: Icon(Icons.add_circle_sharp)),
+                          )
+                        ],
+                      ),
+                      Image.asset(
+                        widget.takimad,
+                        width: 70,
+                        height: 70,
+                      )
+                    ],
+                  ),
+                ),
+              ),
               SliverGrid(
                 delegate: SliverChildBuilderDelegate((context, index) {
                   return FutureBuilder<List<KariyerListe>>(
@@ -179,75 +246,97 @@ class _KariyerPartState extends State<KariyerPart> {
                       return Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: ZoomTapAnimation(
-                          onTap: () {
-                            if (widget.DogruMu[widget.deger + index] ==
-                                "true") {
-                              Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => Change()));
-                            } else {
-                              if (index == 0) {
-                                Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => KariyerSoru(
-                                        YuzdeKac: widget.YuzdeKac,
-                                        DogruMu: widget.DogruMu,
-                                        AcildiMi: widget.AcildiMi,
-                                        takimad: widget.takimad,
-                                        kacincifutbolcu: widget.deger + index,
-                                        Liste: snapshot.requireData,
-                                        part: part,
-                                        anahtar: anahtar,
-                                        yildiz: yildiz,
-                                      ),
-                                    ));
-                              } else if (widget
-                                      .DogruMu[widget.deger + index - 1] ==
+                            onTap: () {
+                              if (widget.DogruMu[widget.deger + index] ==
                                   "true") {
                                 Navigator.pushReplacement(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => KariyerSoru(
-                                        YuzdeKac: widget.YuzdeKac,
-                                        DogruMu: widget.DogruMu,
-                                        AcildiMi: widget.AcildiMi,
-                                        takimad: widget.takimad,
-                                        kacincifutbolcu: widget.deger + index,
-                                        Liste: snapshot.requireData,
-                                        part: part,
-                                        anahtar: anahtar,
-                                        yildiz: yildiz,
-                                      ),
-                                    ));
-                              } else {}
-                            }
-                          },
-                          child: Neumorphic(
-                            margin: EdgeInsets.all(5),
-                            style: NeumorphicStyle(
-                                boxShape: NeumorphicBoxShape.circle(),
-                                border: NeumorphicBorder(width: 5),
-                                depth: 15,
-                                intensity: 0.4),
-                            child: ClipOval(
-                              child: Container(
-                                width: 100,
-                                height: 100,
-                                color: Color.fromARGB(255, 165, 146, 82),
-                                child: Center(
-                                    child: Text(
-                                  (index + 1).toString(),
-                                  style: TextStyle(
-                                      color: DogrulukRengi(index),
-                                      fontSize: 36,
-                                      fontWeight: FontWeight.bold),
-                                )),
-                              ),
-                            ),
-                          ),
-                        ),
+                                        builder: (context) => Finish(
+                                              video: video,
+                                              winstreak: widget.winstreak,
+                                              YuzdeKac: widget.YuzdeKac,
+                                              DogruMu: widget.DogruMu,
+                                              AcildiMi: widget.AcildiMi,
+                                              takimad: widget.takimad,
+                                              kacincifutbolcu:
+                                                  widget.deger + index,
+                                              Liste: snapshot.requireData,
+                                              part: part,
+                                              anahtar: anahtar,
+                                              yildiz: yildiz,
+                                            )));
+                              } else {
+                                if (index == 0) {
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => KariyerSoru(
+                                          video: video,
+                                          winstreak: widget.winstreak,
+                                          YuzdeKac: widget.YuzdeKac,
+                                          DogruMu: widget.DogruMu,
+                                          AcildiMi: widget.AcildiMi,
+                                          takimad: widget.takimad,
+                                          kacincifutbolcu: widget.deger + index,
+                                          Liste: snapshot.requireData,
+                                          part: part,
+                                          anahtar: anahtar,
+                                          yildiz: yildiz,
+                                        ),
+                                      ));
+                                } else if (widget
+                                        .DogruMu[widget.deger + index - 1] ==
+                                    "true") {
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => KariyerSoru(
+                                          video: video,
+                                          winstreak: widget.winstreak,
+                                          YuzdeKac: widget.YuzdeKac,
+                                          DogruMu: widget.DogruMu,
+                                          AcildiMi: widget.AcildiMi,
+                                          takimad: widget.takimad,
+                                          kacincifutbolcu: widget.deger + index,
+                                          Liste: snapshot.requireData,
+                                          part: part,
+                                          anahtar: anahtar,
+                                          yildiz: yildiz,
+                                        ),
+                                      ));
+                                } else {}
+                              }
+                            },
+                            child: Column(
+                              children: [
+                                Container(
+                                  alignment: Alignment.center,
+                                  child: Text(
+                                    "${index + 1}",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 22),
+                                  ),
+                                  height: 85,
+                                  width: 85,
+                                  decoration: BoxDecoration(
+                                    border: Border.all(
+                                        width: 5, color: DogrulukRengi(index)),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        blurRadius: 5,
+                                      )
+                                    ],
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/images/buttonplan.jpg"),
+                                        fit: BoxFit.fill),
+                                    borderRadius: BorderRadius.circular(100),
+                                  ),
+                                ),
+                              ],
+                            )),
                       );
                     },
                   );

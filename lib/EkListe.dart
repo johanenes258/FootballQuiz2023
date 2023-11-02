@@ -18,7 +18,9 @@ List<String> takimContainer = [
   "assets/images/juventus.png",
   "assets/images/atm.png",
   "assets/images/besiktas.png",
-  "assets/images/roma.png"
+  "assets/images/roma.png",
+  "assets/images/porto.png",
+  "assets/images/ajax.png"
 ];
 
 List<String> takimismi = [
@@ -39,5 +41,7 @@ List<String> takimismi = [
   "JUVENTUS",
   "ATLETICO MADRID",
   "BEŞİKTAŞ",
-  "AS ROMA"
+  "AS ROMA",
+  "PORTO",
+  "AJAX"
 ];

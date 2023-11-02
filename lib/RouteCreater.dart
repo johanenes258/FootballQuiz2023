@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:football_quiz_app/Change.dart';
+import 'package:football_quiz_app/Finish.dart';
 import 'package:football_quiz_app/KariyerBul.dart';
 import 'package:football_quiz_app/KariyerBulPart.dart';
 import 'package:football_quiz_app/KariyerBulSoru.dart';
@@ -16,8 +17,47 @@ class RouteCreater {
       case '/':
         return routeOlustur(AnaSayfa(), settings);
       case '/Change':
-        return routeOlustur(Change(), settings);
+        var video = settings.arguments as int;
+        var yildiz = settings.arguments as int;
+        var anahtar = settings.arguments as int;
+        return routeOlustur(
+            Change(
+              anahtar: anahtar,
+              yildiz: yildiz,
+              video: video,
+            ),
+            settings);
+      case '/Finish':
+        var video = settings.arguments as int;
+        var GelenListe = settings.arguments as List<KariyerListe>;
+        var yildiz = settings.arguments as int;
+        var anahtar = settings.arguments as int;
+        var part = settings.arguments as int;
+        var kacincifutbolcu = settings.arguments as int;
+        var takimad = settings.arguments as String;
+        var AcildiMi = settings.arguments as List<String>;
+        var DogruMu = settings.arguments as List<String>;
+        var YuzdeKac = settings.arguments as List<String>;
+        var winstreak = settings.arguments as int;
+        return routeOlustur(
+            Finish(
+              video: video,
+              winstreak: winstreak,
+              YuzdeKac: YuzdeKac,
+              DogruMu: DogruMu,
+              AcildiMi: AcildiMi,
+              takimad: takimad,
+              kacincifutbolcu: kacincifutbolcu,
+              part: part,
+              anahtar: anahtar,
+              yildiz: yildiz,
+              Liste: GelenListe,
+            ),
+            settings);
+
       case '/KariyerBulSoru':
+        var video = settings.arguments as int;
+        var winstreak = settings.arguments as int;
         var GelenListe = settings.arguments as List<KariyerListe>;
         var yildiz = settings.arguments as int;
         var anahtar = settings.arguments as int;
@@ -30,6 +70,8 @@ class RouteCreater {
 
         return routeOlustur(
             KariyerSoru(
+              video: video,
+              winstreak: winstreak,
               YuzdeKac: YuzdeKac,
               DogruMu: DogruMu,
               AcildiMi: AcildiMi,
@@ -43,13 +85,17 @@ class RouteCreater {
             settings);
 
       case '/KariyerBul':
+        var video = settings.arguments as int;
         var yildiz = settings.arguments as int;
         var anahtar = settings.arguments as int;
         var AcildiMi = settings.arguments as List<String>;
         var DogruMu = settings.arguments as List<String>;
         var YuzdeKac = settings.arguments as List<String>;
+        var winstreak = settings.arguments as int;
         return routeOlustur(
             KariyerBul(
+              video: video,
+              winstreak: winstreak,
               YuzdeKac: YuzdeKac,
               DogruMu: DogruMu,
               AcildiMi: AcildiMi,
@@ -58,6 +104,8 @@ class RouteCreater {
             ),
             settings);
       case '/KariyerPart':
+        var video = settings.arguments as int;
+        var winstreak = settings.arguments as int;
         var part = settings.arguments as int;
         var yildiz = settings.arguments as int;
         var anahtar = settings.arguments as int;
@@ -69,6 +117,8 @@ class RouteCreater {
 
         return routeOlustur(
             KariyerPart(
+              video: video,
+              winstreak: winstreak,
               YuzdeKac: YuzdeKac,
               DogruMu: DogruMu,
               AcildiMi: AcildiMi,

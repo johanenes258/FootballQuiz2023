@@ -5,11 +5,13 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:football_quiz_app/Change.dart';
 import 'package:football_quiz_app/IconListe.dart';
 import 'package:football_quiz_app/KariyerBul.dart';
 import 'package:football_quiz_app/KariyerBulPart.dart';
 import 'package:football_quiz_app/KariyerListe.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:scroll_snap_list/scroll_snap_list.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -17,11 +19,13 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 class KariyerSoru extends StatefulWidget {
   final List<KariyerListe> Liste;
   final String takimad;
-  final int yildiz, anahtar, part, kacincifutbolcu;
+  final int yildiz, anahtar, part, kacincifutbolcu, winstreak, video;
   final List<String> AcildiMi, DogruMu, YuzdeKac;
 
   const KariyerSoru({
     super.key,
+    required this.video,
+    required this.winstreak,
     required this.YuzdeKac,
     required this.DogruMu,
     required this.AcildiMi,
@@ -40,38 +44,94 @@ class KariyerSoru extends StatefulWidget {
 class _KariyerSoruState extends State<KariyerSoru> {
   Future<bool> _onWillPop() async {
     verileriKaydet();
-    return (await Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => KariyerPart(
-            YuzdeKac: widget.YuzdeKac,
-            DogruMu: DogruMu,
-            AcildiMi: widget.AcildiMi,
-            takimad: widget.takimad,
-            deger: (widget.part - 1) * 50,
-            part: widget.part,
-            anahtar: anahtar,
-            yildiz: yildiz,
-          ),
-        )));
+    if (winstreak == 4) {
+      if (_isLoaded) {
+        winstreak = 0;
+        _showInterstitialAd();
+      } else {
+        verileriKaydet();
+        Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => KariyerPart(
+                video: video,
+                winstreak: winstreak,
+                YuzdeKac: YuzdeKac,
+                DogruMu: DogruMu,
+                AcildiMi: widget.AcildiMi,
+                takimad: widget.takimad,
+                deger: (widget.part - 1) * 50,
+                part: widget.part,
+                anahtar: anahtar,
+                yildiz: yildiz,
+              ),
+            ));
+      }
+      return false;
+    } else {
+      return await Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => KariyerPart(
+              video: video,
+              winstreak: winstreak,
+              YuzdeKac: YuzdeKac,
+              DogruMu: DogruMu,
+              AcildiMi: widget.AcildiMi,
+              takimad: widget.takimad,
+              deger: (widget.part - 1) * 50,
+              part: widget.part,
+              anahtar: anahtar,
+              yildiz: yildiz,
+            ),
+          ));
+    }
+  }
+
+  late final InterstitialAd _interstitialAd;
+  final String intersititalAdUnitId = "ca-app-pub-5466834995480304/7376824960";
+  bool _isLoaded = false;
+
+  void _loadInterstitialAd() {
+    InterstitialAd.load(
+        adUnitId: intersititalAdUnitId,
+        request: const AdRequest(),
+        adLoadCallback: InterstitialAdLoadCallback(
+            onAdLoaded: (InterstitialAd ad) {
+              _interstitialAd = ad;
+              _setFullScreenContentCallback(ad);
+              _isLoaded = true;
+            },
+            onAdFailedToLoad: (error) {}));
+  }
+
+  void _setFullScreenContentCallback(InterstitialAd ad) {
+    ad.fullScreenContentCallback = FullScreenContentCallback(
+      onAdDismissedFullScreenContent: (ad) => ad.dispose(),
+    );
+  }
+
+  void _showInterstitialAd() {
+    _interstitialAd.show();
   }
 
   int mevki = 3;
   int uyruk = 2;
   int harfal = 1;
   int kontrol = 0;
-  String alfabe = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  String alfabe = 'ABCDEFGHIJKLMNOPQRSTUVWXYZAEIOU';
   List<int> visible = List.filled(16, -1);
   List<String> harfler = List.filled(16, 'X');
   List<bool> Boolean = List.filled(16, true);
   late String isim, soyisim;
   late List<Color> Renkisim, Renksoyisim;
-  late int yildiz, anahtar, kim, takim, random;
+  late int yildiz, anahtar, kim, takim, random, winstreak, video;
   late List<String> isimListe = List.filled(20, '');
   late List<String> soyisimListe = List.filled(20, '');
   late List<String> DogruMu, YuzdeKac;
   @override
   void initState() {
+    _loadInterstitialAd();
     DogruMu = widget.DogruMu;
     kim = widget.kacincifutbolcu;
     YuzdeKac = widget.YuzdeKac;
@@ -80,40 +140,61 @@ class _KariyerSoruState extends State<KariyerSoru> {
     soyisim = widget.Liste.elementAt(kim).soyisim;
     Renkisim = List.filled(
       isim.length,
-      Color.fromARGB(255, 31, 32, 92),
+      Color.fromARGB(255, 205, 199, 180),
     );
     Renksoyisim = List.filled(
       soyisim.length,
-      Color.fromARGB(255, 31, 32, 92),
+      Color.fromARGB(255, 205, 199, 180),
     );
     HarfleriBelirle();
     yildiz = widget.yildiz;
     anahtar = widget.anahtar;
+    winstreak = widget.winstreak;
+    video = widget.video;
     super.initState();
   }
 
   void IpucuAl(int x, String Button) {
-    if (anahtar - x > 0) {
+    if (anahtar - x >= 0) {
       anahtar = anahtar - x;
       verileriKaydet();
       if (x == 3 || Button == "MEVKİ") {
         setState(() {
           mevki = 0;
         });
-        EasyLoading.showToast("MEVKİ: ${widget.Liste.elementAt(kim).pozisyon}");
+        Fluttertoast.showToast(
+            msg: "MEVKİ: ${widget.Liste.elementAt(kim).pozisyon}");
       } else if (x == 2 || Button == "UYRUK") {
         setState(() {
           uyruk = 0;
         });
-        EasyLoading.showToast("UYRUK: ${widget.Liste.elementAt(kim).uyruk}");
+        Fluttertoast.showToast(
+            msg: "UYRUK: ${widget.Liste.elementAt(kim).uyruk}");
+      } else if (x == 1 || Button == "HARF") {
+        HarfAliyim();
       }
     } else
-      Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => Change(),
-          ));
+      _navigateAndDisplaySelection(context);
     setState(() {});
+  }
+
+  Future<void> _navigateAndDisplaySelection(BuildContext context) async {
+    final result = await Navigator.push(
+      context,
+      MaterialPageRoute(
+          builder: (context) => Change(
+                video: video,
+                anahtar: anahtar,
+                yildiz: yildiz,
+              )),
+    );
+
+    if (!mounted) return;
+    setState(() {
+      anahtar = result[0];
+      yildiz = result[1];
+      video = result[2];
+    });
   }
 
   void HarfYerlestir(String harf, int q) {
@@ -121,6 +202,7 @@ class _KariyerSoruState extends State<KariyerSoru> {
       if (isimListe[x] == '') {
         isimListe[x] = harf;
         visible[x] = q;
+        Boolean[q] = false;
         setState(() {});
         break;
       } else if (x == isim.length - 1) {
@@ -129,7 +211,10 @@ class _KariyerSoruState extends State<KariyerSoru> {
             if (soyisimListe[a] == '') {
               soyisimListe[a] = harf;
               visible[a + isim.length] = q;
+              Boolean[q] = false;
               setState(() {});
+              break;
+            } else if (a == soyisim.length - 1) {
               break;
             }
           }
@@ -140,8 +225,6 @@ class _KariyerSoruState extends State<KariyerSoru> {
 
   void verileriKaydet() async {
     final preferences = await SharedPreferences.getInstance();
-    preferences.remove("yildiz");
-    preferences.remove("anahtar");
     preferences.setInt("yildiz", yildiz);
     preferences.setInt("anahtar", anahtar);
     preferences.setStringList("DogruMu", DogruMu);
@@ -154,11 +237,16 @@ class _KariyerSoruState extends State<KariyerSoru> {
         if (isim.substring(x, x + 1) != isimListe[x]) {
           break;
         } else if (x == isim.length - 1) {
+          setState(() {});
+          harfal = 0;
+          uyruk = 0;
+          mevki = 0;
           DogruMu[kim] = "true";
           YuzdeKac[widget.part - 1] =
               (int.parse(YuzdeKac[widget.part - 1]) + 1).toString();
-          yildiz = yildiz + 5;
+          yildiz = yildiz + 3;
           Renkisim = List.filled(isim.length, Colors.green);
+          winstreak++;
           verileriKaydet();
         }
       }
@@ -171,12 +259,17 @@ class _KariyerSoruState extends State<KariyerSoru> {
             if (soyisim.substring(a, a + 1) != soyisimListe[a]) {
               break;
             } else if (a == soyisim.length - 1) {
+              setState(() {});
+              harfal = 0;
+              uyruk = 0;
+              mevki = 0;
               DogruMu[kim] = "true";
               YuzdeKac[widget.part - 1] =
                   (int.parse(YuzdeKac[widget.part - 1]) + 1).toString();
-              yildiz = yildiz + 5;
+              yildiz = yildiz + 3;
               Renkisim = List.filled(isim.length, Colors.green);
               Renksoyisim = List.filled(soyisim.length, Colors.green);
+              winstreak++;
               verileriKaydet();
             }
           }
@@ -290,48 +383,6 @@ class _KariyerSoruState extends State<KariyerSoru> {
     }
   }
 
-  double TakimWidth() {
-    if (takim == 5) {
-      return 55;
-    } else if (takim == 6) {
-      return 50;
-    } else if (takim == 7) {
-      return 45;
-    } else if (takim == 8) {
-      return 38;
-    } else if (takim == 9) {
-      return 33;
-    } else {
-      return 66;
-    }
-  }
-
-  double TakimSize() {
-    if (takim == 5) {
-      return 30;
-    } else if (takim == 6) {
-      return 26;
-    } else if (takim == 7) {
-      return 24;
-    } else if (takim == 8) {
-      return 21;
-    } else if (takim == 9) {
-      return 18;
-    } else {
-      return 36;
-    }
-  }
-
-  double ArrowSize() {
-    if (takim < 5) {
-      return 12;
-    } else if (takim < 7) {
-      return 8;
-    } else {
-      return 6;
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     List<Widget> mywidgets = [];
@@ -357,7 +408,8 @@ class _KariyerSoruState extends State<KariyerSoru> {
             },
             child: Text(
               isimListe[i],
-              style: TextStyle(color: Colors.white),
+              style:
+                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
             ),
           ),
         ),
@@ -385,7 +437,8 @@ class _KariyerSoruState extends State<KariyerSoru> {
             },
             child: Text(
               soyisimListe[i],
-              style: TextStyle(color: Colors.white),
+              style:
+                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
             ),
           ),
         ),
@@ -469,7 +522,7 @@ class _KariyerSoruState extends State<KariyerSoru> {
                     size: 48,
                   ),
                   Text(
-                    "+5",
+                    "+3",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 36),
                   )
                 ],
@@ -479,25 +532,55 @@ class _KariyerSoruState extends State<KariyerSoru> {
               padding: const EdgeInsets.only(top: 12),
               child: ZoomTapAnimation(
                 onTap: () {
-                  Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => KariyerPart(
-                          YuzdeKac: YuzdeKac,
-                          DogruMu: DogruMu,
-                          AcildiMi: widget.AcildiMi,
-                          takimad: widget.takimad,
-                          deger: (widget.part - 1) * 50,
-                          part: widget.part,
-                          anahtar: anahtar,
-                          yildiz: yildiz,
-                        ),
-                      ));
+                  if (winstreak == 4) {
+                    if (_isLoaded) {
+                      winstreak = 0;
+                      _showInterstitialAd();
+                    } else {
+                      verileriKaydet();
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => KariyerPart(
+                              video: video,
+                              winstreak: winstreak,
+                              YuzdeKac: YuzdeKac,
+                              DogruMu: DogruMu,
+                              AcildiMi: widget.AcildiMi,
+                              takimad: widget.takimad,
+                              deger: (widget.part - 1) * 50,
+                              part: widget.part,
+                              anahtar: anahtar,
+                              yildiz: yildiz,
+                            ),
+                          ));
+                    }
+                  } else {
+                    Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => KariyerPart(
+                            video: video,
+                            winstreak: winstreak,
+                            YuzdeKac: YuzdeKac,
+                            DogruMu: DogruMu,
+                            AcildiMi: widget.AcildiMi,
+                            takimad: widget.takimad,
+                            deger: (widget.part - 1) * 50,
+                            part: widget.part,
+                            anahtar: anahtar,
+                            yildiz: yildiz,
+                          ),
+                        ));
+                  }
                 },
                 child: Neumorphic(
                   duration: Duration(seconds: 5),
                   child: Container(
-                    color: Color.fromARGB(255, 165, 146, 82),
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage("assets/images/buttonplan.jpg"),
+                            fit: BoxFit.fill)),
                     alignment: Alignment.center,
                     width: 200,
                     height: 50,
@@ -525,10 +608,9 @@ class _KariyerSoruState extends State<KariyerSoru> {
         resizeToAvoidBottomInset: false,
         body: Container(
           decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [
-            Color.fromARGB(255, 77, 145, 200),
-            Color.fromARGB(255, 181, 116, 116)
-          ], end: Alignment.bottomCenter, begin: Alignment.topCenter)),
+              image: DecorationImage(
+                  image: AssetImage("assets/images/arkaplan.jpg"),
+                  fit: BoxFit.fill)),
           child: Column(
             children: [
               Padding(
@@ -542,20 +624,49 @@ class _KariyerSoruState extends State<KariyerSoru> {
                           child: IconButton(
                               onPressed: () {
                                 verileriKaydet();
-                                Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => KariyerPart(
-                                        YuzdeKac: YuzdeKac,
-                                        DogruMu: DogruMu,
-                                        AcildiMi: widget.AcildiMi,
-                                        takimad: widget.takimad,
-                                        deger: (widget.part - 1) * 50,
-                                        part: widget.part,
-                                        anahtar: anahtar,
-                                        yildiz: yildiz,
-                                      ),
-                                    ));
+                                if (winstreak == 4) {
+                                  if (_isLoaded) {
+                                    winstreak == 0;
+                                    _showInterstitialAd();
+                                  } else {
+                                    verileriKaydet();
+                                    Navigator.pushReplacement(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => KariyerPart(
+                                            video: video,
+                                            winstreak: winstreak,
+                                            YuzdeKac: YuzdeKac,
+                                            DogruMu: DogruMu,
+                                            AcildiMi: widget.AcildiMi,
+                                            takimad: widget.takimad,
+                                            deger: (widget.part - 1) * 50,
+                                            part: widget.part,
+                                            anahtar: anahtar,
+                                            yildiz: yildiz,
+                                          ),
+                                        ));
+                                  }
+                                  winstreak = 0;
+                                } else {
+                                  verileriKaydet();
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => KariyerPart(
+                                          video: video,
+                                          winstreak: winstreak,
+                                          YuzdeKac: YuzdeKac,
+                                          DogruMu: DogruMu,
+                                          AcildiMi: widget.AcildiMi,
+                                          takimad: widget.takimad,
+                                          deger: (widget.part - 1) * 50,
+                                          part: widget.part,
+                                          anahtar: anahtar,
+                                          yildiz: yildiz,
+                                        ),
+                                      ));
+                                }
                               },
                               icon: Icon(
                                 Icons.arrow_back,
@@ -581,7 +692,7 @@ class _KariyerSoruState extends State<KariyerSoru> {
                                   ),
                                   SizedBox(width: 5),
                                   Icon(
-                                    Icons.lightbulb_circle_outlined,
+                                    Icons.key,
                                     color: Color.fromARGB(255, 3, 3, 3),
                                   ),
                                   SizedBox(width: 2),
@@ -599,7 +710,9 @@ class _KariyerSoruState extends State<KariyerSoru> {
                                   borderRadius: BorderRadius.circular(15)),
                             )),
                         IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              _navigateAndDisplaySelection(context);
+                            },
                             icon: Icon(Icons.add_circle_sharp))
                       ],
                     ),
@@ -615,13 +728,18 @@ class _KariyerSoruState extends State<KariyerSoru> {
                     return Container(
                       width: 150,
                       decoration: BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage("assets/images/buttonplan.jpg"),
+                              fit: BoxFit.fill),
                           border: Border.all(width: 1),
                           borderRadius: BorderRadius.circular(10)),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Text(IconListesi.elementAt(kim)[p1 + 10],
-                              style: TextStyle(fontWeight: FontWeight.bold)),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black)),
                           Image.asset(
                             IconListesi.elementAt(kim)[p1],
                             width: 100,
@@ -630,7 +748,9 @@ class _KariyerSoruState extends State<KariyerSoru> {
                           Text(
                             IconListesi.elementAt(kim)[p1 + 20],
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 12),
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 12),
                           ),
                         ],
                       ),
@@ -684,13 +804,12 @@ class _KariyerSoruState extends State<KariyerSoru> {
                 onPressed: () {
                   HarfYerlestir(harf, x);
                   DogruKontrol();
-                  Boolean[x] = false;
                   setState(() {});
                 },
                 style: ElevatedButton.styleFrom(
                   splashFactory: NoSplash.splashFactory,
-                  foregroundColor: Color.fromARGB(255, 19, 48, 84),
-                  backgroundColor: Color.fromARGB(255, 19, 48, 84),
+                  foregroundColor: Color.fromARGB(255, 205, 199, 180),
+                  backgroundColor: Color.fromARGB(255, 205, 199, 180),
                   side: BorderSide(width: 0.5),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
@@ -698,7 +817,8 @@ class _KariyerSoruState extends State<KariyerSoru> {
                 ),
                 child: Text(
                   harf,
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(
+                      color: Colors.black, fontWeight: FontWeight.bold),
                 )),
           ),
         ),
@@ -737,7 +857,7 @@ class _KariyerSoruState extends State<KariyerSoru> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Icon(
-                      Icons.lightbulb_circle_outlined,
+                      Icons.key,
                       size: 25,
                       color: Colors.black,
                     ),
@@ -753,7 +873,6 @@ class _KariyerSoruState extends State<KariyerSoru> {
           ),
           onPressed: () {
             if (title == "HARF") {
-              HarfAliyim();
               IpucuAl(x, "HARF");
             } else if (title == "UYRUK") {
               IpucuAl(x, "UYRUK");

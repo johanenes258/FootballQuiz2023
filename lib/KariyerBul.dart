@@ -11,12 +11,14 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 import 'Github/arc.dart';
 
 class KariyerBul extends StatefulWidget {
-  final int yildiz, anahtar;
+  final int yildiz, anahtar, winstreak, video;
   final List<String> AcildiMi;
   final List<String> DogruMu, YuzdeKac;
 
   const KariyerBul({
     super.key,
+    required this.video,
+    required this.winstreak,
     required this.YuzdeKac,
     required this.DogruMu,
     required this.yildiz,
@@ -35,8 +37,27 @@ class _KariyerBulState extends State<KariyerBul> {
     setState(() {});
   }
 
-  late int yildiz, anahtar;
+  late int yildiz, anahtar, video;
   late List<String> AcildiMi;
+
+  Future<void> _navigateAndDisplaySelection(BuildContext context) async {
+    final result = await Navigator.push(
+      context,
+      MaterialPageRoute(
+          builder: (context) => Change(
+                video: video,
+                anahtar: anahtar,
+                yildiz: yildiz,
+              )),
+    );
+
+    if (!mounted) return;
+    setState(() {
+      anahtar = result[0];
+      yildiz = result[1];
+      video = result[2];
+    });
+  }
 
   void Ontap(int index) {
     if (AcildiMi.elementAt(index) == "false") {
@@ -44,7 +65,7 @@ class _KariyerBulState extends State<KariyerBul> {
         context: context,
         builder: (context) {
           return AlertDialog(
-            backgroundColor: Color.fromARGB(255, 205, 199, 180),
+            backgroundColor: Color.fromARGB(255, 122, 163, 159),
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
             title: Text(
@@ -110,20 +131,21 @@ class _KariyerBulState extends State<KariyerBul> {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => KariyerPart(
+                                        video: video,
+                                        winstreak: widget.winstreak,
                                         YuzdeKac: widget.YuzdeKac,
                                         DogruMu: widget.DogruMu,
                                         AcildiMi: AcildiMi,
-                                        takimad: takimismi.elementAt(index),
+                                        takimad:
+                                            takimContainer.elementAt(index),
                                         deger: index * 50,
                                         part: index + 1,
                                         anahtar: anahtar,
                                         yildiz: yildiz),
                                   ));
                             } else {
-                              Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => Change()));
+                              verileriKaydet();
+                              _navigateAndDisplaySelection(context);
                             }
                           },
                           child: Row(
@@ -149,14 +171,17 @@ class _KariyerBulState extends State<KariyerBul> {
         },
       );
     } else {
+      verileriKaydet();
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
             builder: (context) => KariyerPart(
+                video: video,
+                winstreak: widget.winstreak,
                 YuzdeKac: widget.YuzdeKac,
                 DogruMu: widget.DogruMu,
                 AcildiMi: AcildiMi,
-                takimad: takimismi.elementAt(index),
+                takimad: takimContainer.elementAt(index),
                 deger: index * 50,
                 part: index + 1,
                 anahtar: anahtar,
@@ -166,6 +191,7 @@ class _KariyerBulState extends State<KariyerBul> {
   }
 
   Future<bool> _onWillPop() async {
+    verileriKaydet();
     return (await Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => AnaSayfa())));
   }
@@ -174,6 +200,7 @@ class _KariyerBulState extends State<KariyerBul> {
     yildiz = widget.yildiz;
     anahtar = widget.anahtar;
     AcildiMi = widget.AcildiMi;
+    video = widget.video;
   }
 
   void verileriKaydet() async {
@@ -188,30 +215,7 @@ class _KariyerBulState extends State<KariyerBul> {
     Widget mywidgets(int index) {
       if (AcildiMi[index] == "false") {
         return Center(
-          child: Container(
-            width: 60,
-            height: 30,
-            decoration: BoxDecoration(
-              color: Color.fromARGB(255, 102, 118, 132),
-              borderRadius: BorderRadius.circular(5),
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "100",
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 2),
-                  child: Icon(
-                    Icons.star,
-                    color: Colors.orange,
-                  ),
-                )
-              ],
-            ),
-          ),
+          child: Icon(Icons.lock),
         );
       } else {
         return Padding(
@@ -239,71 +243,87 @@ class _KariyerBulState extends State<KariyerBul> {
       onWillPop: _onWillPop,
       child: Scaffold(
         resizeToAvoidBottomInset: false,
+        backgroundColor: Colors.transparent,
         body: Container(
           decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [
-            Color.fromARGB(255, 77, 145, 200),
-            Color.fromARGB(255, 181, 116, 116)
-          ], end: Alignment.bottomCenter, begin: Alignment.topCenter)),
+              image: DecorationImage(
+                  image: AssetImage("assets/images/arkaplan.jpg"),
+                  fit: BoxFit.fill)),
           child: CustomScrollView(
             slivers: [
-              SliverAppBar(
-                leading: ZoomTapAnimation(
-                  child: Icon(Icons.arrow_back),
-                  onTap: () {
-                    Navigator.pushReplacement(context,
-                        MaterialPageRoute(builder: (context) => AnaSayfa()));
-                  },
-                ),
-                shape: Border(bottom: BorderSide(width: 1)),
-                expandedHeight: 110,
-                pinned: true,
-                backgroundColor: Color.fromARGB(255, 205, 199, 180),
-                iconTheme: IconThemeData(color: Colors.black),
-                flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Text(
-                    'TAKIM SEÇ',
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                        fontSize: 18),
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 30),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(
+                                left: 10, right: 10, top: 10),
+                            child: IconButton(
+                                onPressed: () {
+                                  verileriKaydet();
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => AnaSayfa()));
+                                },
+                                icon: Icon(
+                                  Icons.arrow_back,
+                                  size: 32,
+                                  color: Colors.black,
+                                )),
+                          ),
+                          Padding(
+                              padding: EdgeInsets.only(left: 150, top: 10),
+                              child: Container(
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.stars_sharp,
+                                    ),
+                                    SizedBox(width: 2),
+                                    Text(
+                                      yildiz.toString(),
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                    SizedBox(width: 5),
+                                    Icon(
+                                      Icons.key,
+                                    ),
+                                    SizedBox(width: 2),
+                                    Text(
+                                      anahtar.toString(),
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ],
+                                ),
+                                width: 125,
+                                height: 30,
+                                decoration: BoxDecoration(
+                                    border: Border.all(width: 1),
+                                    borderRadius: BorderRadius.circular(15)),
+                              )),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10),
+                            child: IconButton(
+                                onPressed: () {
+                                  verileriKaydet();
+                                  _navigateAndDisplaySelection(context);
+                                },
+                                icon: Icon(
+                                  Icons.add_circle_sharp,
+                                )),
+                          )
+                        ],
+                      ),
+                    ],
                   ),
                 ),
-                actions: [
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.star,
-                        color: Colors.orange,
-                      ),
-                      Text(
-                        yildiz.toString(),
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Icon(
-                        Icons.key,
-                        color: Colors.blue,
-                      ),
-                      Text(
-                        anahtar.toString(),
-                        style: TextStyle(
-                            fontSize: 16,
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      )
-                    ],
-                  )
-                ],
               ),
               SliverList(
                 delegate: SliverChildBuilderDelegate((context, index) {
@@ -321,13 +341,17 @@ class _KariyerBulState extends State<KariyerBul> {
                               style: NeumorphicStyle(
                                   border: NeumorphicBorder(width: 6),
                                   boxShape: NeumorphicBoxShape.circle(),
-                                  depth: 15,
+                                  depth: 3,
                                   intensity: 0.5),
                               child: ClipOval(
                                 child: Container(
                                   width: 100,
                                   height: 100,
-                                  color: Color.fromARGB(255, 205, 199, 180),
+                                  decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                          image: AssetImage(
+                                              "assets/images/buttonplan.jpg"),
+                                          fit: BoxFit.fill)),
                                   child: Container(
                                     margin: EdgeInsets.all(5),
                                     child: Image.asset(
@@ -348,8 +372,7 @@ class _KariyerBulState extends State<KariyerBul> {
                                 arcType: ArcType.CONVEY,
                                 height: 10.0,
                                 clipShadows: [
-                                  ClipShadow(
-                                      color: Colors.black, elevation: 0.1)
+                                  ClipShadow(color: Colors.black, elevation: 5)
                                 ],
                                 child: new Container(
                                   width: 250,
@@ -367,13 +390,15 @@ class _KariyerBulState extends State<KariyerBul> {
                                     ],
                                   ),
                                   decoration: BoxDecoration(
-                                    color: Color.fromARGB(255, 205, 199, 180),
-                                  ),
+                                      image: DecorationImage(
+                                          image: AssetImage(
+                                              "assets/images/buttonplan.jpg"),
+                                          fit: BoxFit.fill)),
                                 )),
                           )
                         ]),
                   );
-                }, childCount: 14),
+                }, childCount: 20),
               ),
             ],
           ),
